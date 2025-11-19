@@ -29,7 +29,7 @@ const services = [
   },
   {
     icon: Zap,
-    title: "Community Growth",
+    title: "X Organic Boosting",
     description: "Build and nurture engaged communities that drive long-term project success."
   }
 ];
