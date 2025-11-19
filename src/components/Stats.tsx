@@ -24,7 +24,7 @@ const Stats = () => {
           {stats.map((stat, index) => (
             <div 
               key={index}
-              className="text-center space-y-2 p-6 rounded-lg bg-card/30 backdrop-blur-sm border border-border hover:border-mint/50 transition-all duration-300"
+              className="text-center space-y-2 p-6 rounded-lg bg-card/30 backdrop-blur-sm border border-border hover:border-primary/50 transition-all duration-300"
             >
               <div className="text-4xl md:text-5xl font-bold text-gradient">
                 {stat.number}

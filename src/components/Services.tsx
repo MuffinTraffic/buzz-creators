@@ -51,11 +51,11 @@ const Services = () => {
           {services.map((service, index) => (
             <Card 
               key={index}
-              className="border-border bg-card/50 backdrop-blur-sm hover:border-mint/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-mint/10"
+              className="border-border bg-card/50 backdrop-blur-sm hover:border-primary/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-primary/10"
             >
               <CardHeader>
-                <div className="w-12 h-12 rounded-lg bg-mint/10 flex items-center justify-center mb-4">
-                  <service.icon className="w-6 h-6 text-mint" />
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                  <service.icon className="w-6 h-6 text-primary" />
                 </div>
                 <CardTitle className="text-xl">{service.title}</CardTitle>
               </CardHeader>
