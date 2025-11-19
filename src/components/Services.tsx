@@ -4,33 +4,33 @@ import { Rocket, Target, TrendingUp, Zap, Globe, Lock } from "lucide-react";
 const services = [
   {
     icon: Rocket,
-    title: "NFT Marketing",
-    description: "Launch and promote your NFT collection with targeted campaigns that reach collectors and enthusiasts."
+    title: "KOL Marketing",
+    description: "Connect with top-tier Key Opinion Leaders to amplify your brand's reach and credibility in the Web3 space."
   },
   {
     icon: Target,
-    title: "Community Building",
-    description: "Build engaged, loyal communities across Discord, Twitter, and Web3 social platforms."
-  },
-  {
-    icon: TrendingUp,
-    title: "DeFi Growth",
-    description: "Scale your DeFi protocol with data-driven marketing strategies and influencer partnerships."
-  },
-  {
-    icon: Zap,
-    title: "Token Launches",
-    description: "Execute successful token launches with strategic marketing, PR, and community engagement."
-  },
-  {
-    icon: Globe,
-    title: "Web3 Branding",
-    description: "Create a distinctive brand identity that resonates with the decentralized community."
+    title: "Micro-KOL Marketing",
+    description: "Leverage niche influencers for authentic engagement and targeted community growth."
   },
   {
     icon: Lock,
     title: "Crypto PR",
     description: "Get featured in top crypto media outlets and build credibility in the space."
+  },
+  {
+    icon: TrendingUp,
+    title: "Business Development",
+    description: "Strategic partnerships and growth initiatives to scale your Web3 project."
+  },
+  {
+    icon: Globe,
+    title: "Social Media Management",
+    description: "Professional management of your social presence across all major Web3 platforms."
+  },
+  {
+    icon: Zap,
+    title: "Community Growth",
+    description: "Build and nurture engaged communities that drive long-term project success."
   }
 ];
 
