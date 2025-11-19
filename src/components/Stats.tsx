@@ -7,9 +7,7 @@ const stats = [
 
 const Stats = () => {
   return (
-    <section className="py-24 relative">
-      <div className="absolute inset-0 bg-gradient-to-b from-background via-card to-background"></div>
-      
+    <section className="py-24 relative bg-gray-light/30">
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-4xl md:text-5xl font-bold">
@@ -24,7 +22,7 @@ const Stats = () => {
           {stats.map((stat, index) => (
             <div 
               key={index}
-              className="text-center space-y-2 p-6 rounded-lg bg-card/30 backdrop-blur-sm border border-border hover:border-primary/50 transition-all duration-300"
+              className="text-center space-y-2 p-6 rounded-lg bg-card backdrop-blur-sm border border-border hover:border-primary hover:shadow-lg transition-all duration-300"
             >
               <div className="text-4xl md:text-5xl font-bold text-gradient">
                 {stat.number}

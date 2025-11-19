@@ -8,51 +8,51 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Web3 Agency Colors - #B8336A, #F19C79, #9EADC8, #B9E28C, #D6D84F */
-    --background: 334 56% 12%;
-    --foreground: 80 62% 91%;
+    /* Clean Modern Palette - Light & Professional */
+    --background: 0 0% 98%;
+    --foreground: 222 47% 11%;
 
-    --card: 334 56% 16%;
-    --card-foreground: 80 62% 91%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
 
-    --popover: 334 56% 16%;
-    --popover-foreground: 80 62% 91%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
 
-    --primary: 80 62% 71%;
-    --primary-foreground: 334 56% 12%;
+    --primary: 199 89% 48%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 18 79% 72%;
-    --secondary-foreground: 334 56% 12%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222 47% 11%;
 
-    --muted: 214 32% 70%;
-    --muted-foreground: 214 32% 50%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
 
-    --accent: 62 68% 58%;
-    --accent-foreground: 334 56% 12%;
+    --accent: 199 89% 48%;
+    --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 80 62% 91%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 334 56% 26%;
-    --input: 334 56% 26%;
-    --ring: 80 62% 71%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 199 89% 48%;
 
     --radius: 0.75rem;
 
     /* Custom tokens */
-    --magenta: 334 56% 46%;
-    --coral: 18 79% 72%;
-    --light-blue: 214 32% 70%;
-    --lime: 80 62% 71%;
-    --yellow: 62 68% 58%;
+    --teal: 199 89% 48%;
+    --teal-light: 199 89% 65%;
+    --navy: 222 47% 11%;
+    --gray-light: 210 40% 96%;
+    --gray: 215 16% 47%;
     
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(334 56% 12%), hsl(334 56% 22%));
-    --gradient-card: linear-gradient(180deg, hsl(334 56% 16%), hsl(334 56% 12%));
+    --gradient-hero: linear-gradient(135deg, hsl(199 89% 48%), hsl(199 89% 65%));
+    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%), hsl(210 40% 98%));
     
     /* Effects */
-    --glow-mint: 0 0 40px hsl(80 62% 71% / 0.3);
-    --shadow-elevated: 0 10px 40px -10px hsl(0 0% 0% / 0.5);
+    --glow-primary: 0 8px 32px hsl(199 89% 48% / 0.2);
+    --shadow-elevated: 0 4px 20px hsl(222 47% 11% / 0.08);
   }
 }
 
@@ -73,10 +73,10 @@ All colors MUST be HSL.
 
 @layer utilities {
   .text-gradient {
-    @apply bg-gradient-to-r from-lime to-yellow bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-teal to-teal-light bg-clip-text text-transparent;
   }
   
   .glow-mint {
-    box-shadow: var(--glow-mint);
+    box-shadow: var(--glow-primary);
   }
 }

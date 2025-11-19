@@ -45,7 +45,7 @@ const Contact = () => {
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
           {/* Contact Info */}
           <div className="space-y-6">
-            <Card className="border-border bg-card/50 backdrop-blur-sm">
+            <Card className="border-border bg-card backdrop-blur-sm">
               <CardHeader>
                 <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
                   <Mail className="w-6 h-6 text-primary" />
@@ -57,7 +57,7 @@ const Contact = () => {
               </CardHeader>
             </Card>
 
-            <Card className="border-border bg-card/50 backdrop-blur-sm">
+            <Card className="border-border bg-card backdrop-blur-sm">
               <CardHeader>
                 <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
                   <MessageSquare className="w-6 h-6 text-primary" />
@@ -71,7 +71,7 @@ const Contact = () => {
           </div>
 
           {/* Contact Form */}
-          <Card className="border-border bg-card/50 backdrop-blur-sm">
+          <Card className="border-border bg-card backdrop-blur-sm">
             <CardContent className="pt-6">
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div className="space-y-2">
@@ -81,7 +81,7 @@ const Contact = () => {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="bg-background/50 border-border focus:border-primary"
+                    className="bg-background border-border focus:border-primary"
                   />
                 </div>
                 
@@ -93,7 +93,7 @@ const Contact = () => {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="bg-background/50 border-border focus:border-primary"
+                    className="bg-background border-border focus:border-primary"
                   />
                 </div>
                 
@@ -105,7 +105,7 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     rows={5}
-                    className="bg-background/50 border-border focus:border-primary resize-none"
+                    className="bg-background border-border focus:border-primary resize-none"
                   />
                 </div>
 
