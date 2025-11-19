@@ -8,13 +8,13 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-32 relative bg-gray-900">
+    <section id="contact" className="py-24 relative">
       <div className="container mx-auto px-4">
         <div className="text-center space-y-8 max-w-3xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-white">
-            Get in Touch
+          <h2 className="text-4xl md:text-5xl font-bold">
+            Get in <span className="text-gradient">Touch</span>
           </h2>
-          <p className="text-xl md:text-2xl text-gray-300">
+          <p className="text-xl text-muted-foreground">
             Ready to make a W step? Let's talk
           </p>
           
@@ -22,8 +22,7 @@ const Contact = () => {
             <Button
               onClick={handleWorkWithUs}
               size="lg"
-              variant="outline"
-              className="border-2 border-teal text-white hover:bg-teal hover:text-white transition-all duration-300 rounded-full px-8 py-6 text-lg font-medium group"
+              className="bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 rounded-full px-8 py-6 text-lg font-medium group"
             >
               Work with us
               <ArrowUpRight className="ml-2 h-5 w-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
