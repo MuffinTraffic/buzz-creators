@@ -39,12 +39,12 @@ const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <Card 
               key={index}
-              className="border-border bg-card/50 backdrop-blur-sm hover:border-mint/50 transition-all duration-300"
+              className="border-border bg-card/50 backdrop-blur-sm hover:border-primary/50 transition-all duration-300"
             >
               <CardContent className="pt-6 space-y-4">
                 <div className="flex gap-1">
                   {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 fill-mint text-mint" />
+                    <Star key={i} className="w-5 h-5 fill-primary text-primary" />
                   ))}
                 </div>
                 

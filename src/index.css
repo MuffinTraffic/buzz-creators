@@ -8,50 +8,50 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Web3 Agency Colors - #030027, #95818D, #576066, #B2E6D4, #FAF3DD */
-    --background: 250 93% 8%;
-    --foreground: 46 70% 93%;
+    /* Web3 Agency Colors - #5B507A, #5B618A, #9EADC8, #B9E28C, #D6D84F */
+    --background: 258 21% 18%;
+    --foreground: 80 62% 91%;
 
-    --card: 250 93% 10%;
-    --card-foreground: 46 70% 93%;
+    --card: 258 21% 22%;
+    --card-foreground: 80 62% 91%;
 
-    --popover: 250 93% 10%;
-    --popover-foreground: 46 70% 93%;
+    --popover: 258 21% 22%;
+    --popover-foreground: 80 62% 91%;
 
-    --primary: 159 46% 79%;
-    --primary-foreground: 250 93% 8%;
+    --primary: 80 62% 71%;
+    --primary-foreground: 258 21% 18%;
 
-    --secondary: 324 13% 55%;
-    --secondary-foreground: 46 70% 93%;
+    --secondary: 226 24% 45%;
+    --secondary-foreground: 80 62% 91%;
 
-    --muted: 200 8% 37%;
-    --muted-foreground: 324 13% 65%;
+    --muted: 214 32% 70%;
+    --muted-foreground: 226 24% 35%;
 
-    --accent: 159 46% 79%;
-    --accent-foreground: 250 93% 8%;
+    --accent: 62 68% 58%;
+    --accent-foreground: 258 21% 18%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 46 70% 93%;
+    --destructive-foreground: 80 62% 91%;
 
-    --border: 200 8% 27%;
-    --input: 200 8% 27%;
-    --ring: 159 46% 79%;
+    --border: 226 24% 35%;
+    --input: 226 24% 35%;
+    --ring: 80 62% 71%;
 
     --radius: 0.75rem;
 
     /* Custom tokens */
-    --navy: 250 93% 8%;
-    --mauve: 324 13% 55%;
-    --slate: 200 8% 37%;
-    --mint: 159 46% 79%;
-    --cream: 46 70% 93%;
+    --purple: 258 21% 39%;
+    --blue-purple: 226 24% 45%;
+    --light-blue: 214 32% 70%;
+    --lime: 80 62% 71%;
+    --yellow: 62 68% 58%;
     
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(250 93% 8%), hsl(200 8% 17%));
-    --gradient-card: linear-gradient(180deg, hsl(250 93% 10%), hsl(250 93% 8%));
+    --gradient-hero: linear-gradient(135deg, hsl(258 21% 18%), hsl(226 24% 25%));
+    --gradient-card: linear-gradient(180deg, hsl(258 21% 22%), hsl(258 21% 18%));
     
     /* Effects */
-    --glow-mint: 0 0 40px hsl(159 46% 79% / 0.3);
+    --glow-mint: 0 0 40px hsl(80 62% 71% / 0.3);
     --shadow-elevated: 0 10px 40px -10px hsl(0 0% 0% / 0.5);
   }
 }
@@ -73,7 +73,7 @@ All colors MUST be HSL.
 
 @layer utilities {
   .text-gradient {
-    @apply bg-gradient-to-r from-mint to-cream bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-lime to-yellow bg-clip-text text-transparent;
   }
   
   .glow-mint {

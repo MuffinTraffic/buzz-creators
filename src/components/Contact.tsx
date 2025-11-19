@@ -47,8 +47,8 @@ const Contact = () => {
           <div className="space-y-6">
             <Card className="border-border bg-card/50 backdrop-blur-sm">
               <CardHeader>
-                <div className="w-12 h-12 rounded-lg bg-mint/10 flex items-center justify-center mb-4">
-                  <Mail className="w-6 h-6 text-mint" />
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                  <Mail className="w-6 h-6 text-primary" />
                 </div>
                 <CardTitle>Email Us</CardTitle>
                 <CardDescription>
@@ -59,8 +59,8 @@ const Contact = () => {
 
             <Card className="border-border bg-card/50 backdrop-blur-sm">
               <CardHeader>
-                <div className="w-12 h-12 rounded-lg bg-mint/10 flex items-center justify-center mb-4">
-                  <MessageSquare className="w-6 h-6 text-mint" />
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+                  <MessageSquare className="w-6 h-6 text-primary" />
                 </div>
                 <CardTitle>Quick Response</CardTitle>
                 <CardDescription>
@@ -81,7 +81,7 @@ const Contact = () => {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="bg-background/50 border-border focus:border-mint"
+                    className="bg-background/50 border-border focus:border-primary"
                   />
                 </div>
                 
@@ -93,7 +93,7 @@ const Contact = () => {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="bg-background/50 border-border focus:border-mint"
+                    className="bg-background/50 border-border focus:border-primary"
                   />
                 </div>
                 
@@ -105,13 +105,13 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     rows={5}
-                    className="bg-background/50 border-border focus:border-mint resize-none"
+                    className="bg-background/50 border-border focus:border-primary resize-none"
                   />
                 </div>
 
                 <Button 
                   type="submit" 
-                  className="w-full bg-mint text-navy hover:bg-mint/90 glow-mint transition-all duration-300 group"
+                  className="w-full bg-primary text-primary-foreground hover:bg-primary/90 glow-mint transition-all duration-300 group"
                 >
                   Send Message
                   <Send className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />

@@ -29,7 +29,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
             <Button 
               size="lg" 
-              className="bg-mint text-navy hover:bg-mint/90 glow-mint transition-all duration-300 group"
+              className="bg-primary text-primary-foreground hover:bg-primary/90 glow-mint transition-all duration-300 group"
             >
               Get Started
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
@@ -37,7 +37,7 @@ const Hero = () => {
             <Button 
               size="lg" 
               variant="outline" 
-              className="border-mint text-mint hover:bg-mint hover:text-navy transition-all duration-300"
+              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
             >
               View Our Work
             </Button>
@@ -47,8 +47,8 @@ const Hero = () => {
 
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-mint/50 rounded-full flex justify-center">
-          <div className="w-1.5 h-3 bg-mint rounded-full mt-2 animate-pulse"></div>
+        <div className="w-6 h-10 border-2 border-primary/50 rounded-full flex justify-center">
+          <div className="w-1.5 h-3 bg-primary rounded-full mt-2 animate-pulse"></div>
         </div>
       </div>
     </section>
