@@ -1,8 +1,8 @@
 const stats = [
-  { number: "50+", label: "Projects Launched" },
-  { number: "$10M+", label: "Revenue Generated" },
-  { number: "500K+", label: "Community Members" },
-  { number: "95%", label: "Client Satisfaction" }
+  { number: "50+", label: "Clients Worldwide" },
+  { number: "1000+", label: "KOLs Network" },
+  { number: "150+", label: "Campaigns Launched" },
+  { number: "10M+", label: "Impressions Generated" }
 ];
 
 const Stats = () => {
@@ -11,7 +11,7 @@ const Stats = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-4xl md:text-5xl font-bold">
-            Muffin in <span className="text-gradient">Numbers</span>
+            Muffin Agency in <span className="text-gradient">Numbers</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Our track record speaks for itself

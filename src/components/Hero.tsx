@@ -19,11 +19,11 @@ const Hero = () => {
       <div className="container mx-auto px-4 z-10 text-center">
         <div className="max-w-4xl mx-auto space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-1000">
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-            Elevate Your <span className="text-gradient">Web3</span> Brand
+            The Demand Generation <span className="text-gradient">Agency</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
-            Strategic digital marketing that drives growth in the decentralized future
+            Building Momentum for Web3 Brands. We spark engagement and deliver the results that matter.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
@@ -31,7 +31,7 @@ const Hero = () => {
               size="lg" 
               className="bg-primary text-primary-foreground hover:bg-primary/90 glow-mint transition-all duration-300 group"
             >
-              Get Started
+              Book a Call
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button 
@@ -39,7 +39,7 @@ const Hero = () => {
               variant="outline" 
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
             >
-              View Our Work
+              Message on TG
             </Button>
           </div>
         </div>
