@@ -8,6 +8,9 @@ import kol7 from "@/assets/kol-7.jpg";
 import kol8 from "@/assets/kol-8.jpg";
 import kol9 from "@/assets/kol-9.jpg";
 import kol10 from "@/assets/kol-10.jpg";
+import kol11 from "@/assets/kol-11.jpg";
+import kol12 from "@/assets/kol-12.jpg";
+import kol13 from "@/assets/kol-13.jpg";
 
 const kols = [
   { name: "KOL 1", image: kol1 },
@@ -19,7 +22,10 @@ const kols = [
   { name: "KOL 7", image: kol7 },
   { name: "KOL 8", image: kol8 },
   { name: "KOL 9", image: kol9 },
-  { name: "KOL 10", image: kol10 }
+  { name: "KOL 10", image: kol10 },
+  { name: "KOL 11", image: kol11 },
+  { name: "KOL 12", image: kol12 },
+  { name: "KOL 13", image: kol13 }
 ];
 
 const KOLNetwork = () => {
