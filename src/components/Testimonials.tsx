@@ -1,14 +1,22 @@
+import catapultLogo from "@/assets/client-catapult.jpg";
+import aLogo from "@/assets/client-a.jpg";
+import bunnyLogo from "@/assets/client-bunny.jpg";
+import greenLogo from "@/assets/client-green.jpg";
+import pinkLogo from "@/assets/client-pink.jpg";
+import beerLogo from "@/assets/client-beer.jpg";
+import smileyLogo from "@/assets/client-smiley.jpg";
+import fhLogo from "@/assets/client-fh.jpg";
+
 const clients = [
-  { name: "Client 1", logo: "🐱" },
-  { name: "Client 2", logo: "👤" },
-  { name: "Client 3", logo: "🐸" },
-  { name: "Client 4", logo: "💗" },
-  { name: "First Light", logo: "🔥" },
-  { name: "Client 6", logo: "📱" },
-  { name: "Client 7", logo: "💎" },
-  { name: "Client 8", logo: "⚡" },
-  { name: "Client 9", logo: "⭕" },
-  { name: "200+ More Clients", logo: "200+", isCount: true }
+  { name: "Catapult", logo: catapultLogo },
+  { name: "Client A", logo: aLogo },
+  { name: "Bunny", logo: bunnyLogo },
+  { name: "Green", logo: greenLogo },
+  { name: "Pink", logo: pinkLogo },
+  { name: "Beer 2.0", logo: beerLogo },
+  { name: "Smiley", logo: smileyLogo },
+  { name: "FH", logo: fhLogo },
+  { name: "200+ More Clients", isCount: true }
 ];
 
 const Testimonials = () => {
@@ -26,9 +34,13 @@ const Testimonials = () => {
             {clients.slice(0, 6).map((client, index) => (
               <div 
                 key={index}
-                className="aspect-square rounded-full bg-gradient-to-br from-primary/20 to-accent/20 border-2 border-border hover:border-primary transition-all duration-300 flex items-center justify-center text-4xl hover:scale-110"
+                className="aspect-square rounded-full overflow-hidden border-2 border-border hover:border-primary transition-all duration-300 hover:scale-110 bg-background"
               >
-                {client.logo}
+                <img 
+                  src={client.logo} 
+                  alt={client.name}
+                  className="w-full h-full object-cover"
+                />
               </div>
             ))}
           </div>
@@ -40,7 +52,7 @@ const Testimonials = () => {
                 className={`aspect-square rounded-full ${
                   client.isCount 
                     ? 'bg-background border-2 border-foreground' 
-                    : 'bg-gradient-to-br from-primary/20 to-accent/20 border-2 border-border'
+                    : 'overflow-hidden border-2 border-border bg-background'
                 } hover:border-primary transition-all duration-300 flex items-center justify-center hover:scale-110 ${
                   client.isCount ? 'flex-col' : ''
                 }`}
@@ -51,7 +63,11 @@ const Testimonials = () => {
                     <span className="text-xs text-muted-foreground mt-1">More Clients</span>
                   </>
                 ) : (
-                  <span className="text-4xl">{client.logo}</span>
+                  <img 
+                    src={client.logo} 
+                    alt={client.name}
+                    className="w-full h-full object-cover"
+                  />
                 )}
               </div>
             ))}
