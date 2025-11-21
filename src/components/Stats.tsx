@@ -2,7 +2,8 @@ const stats = [
   { number: "50+", label: "Clients Worldwide" },
   { number: "1000+", label: "KOLs Network" },
   { number: "150+", label: "Campaigns Launched" },
-  { number: "10M+", label: "Impressions Generated" }
+  { number: "10M+", label: "Impressions Generated" },
+  { number: "$30M+", label: "Raised by our clients" }
 ];
 
 const Stats = () => {
@@ -18,7 +19,7 @@ const Stats = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 lg:grid-cols-5 gap-8">
           {stats.map((stat, index) => (
             <div 
               key={index}
