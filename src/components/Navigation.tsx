@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import muffinLogo from "@/assets/muffin-logo.png";
+import muffinLogo from "@/assets/muffin-logo.svg";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
