@@ -53,6 +53,12 @@ const Navigation = () => {
                 {link.label}
               </a>
             ))}
+            <Button
+              onClick={() => scrollToSection("#contact")}
+              className="bg-gradient-to-r from-primary to-accent text-primary-foreground hover:opacity-90 transition-all"
+            >
+              Book a FREE Consultation
+            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -83,6 +89,12 @@ const Navigation = () => {
                   {link.label}
                 </a>
               ))}
+              <Button
+                onClick={() => scrollToSection("#contact")}
+                className="bg-gradient-to-r from-primary to-accent text-primary-foreground hover:opacity-90 transition-all mt-2"
+              >
+                Book a FREE Consultation
+              </Button>
             </div>
           </div>
         )}

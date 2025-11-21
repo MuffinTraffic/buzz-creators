@@ -16,7 +16,7 @@ const clients = [
   { name: "Beer 2.0", logo: beerLogo },
   { name: "Smiley", logo: smileyLogo },
   { name: "FH", logo: fhLogo },
-  { name: "200+ More Clients", isCount: true }
+  { name: "50+ More Clients", isCount: true }
 ];
 
 const Testimonials = () => {
@@ -59,7 +59,7 @@ const Testimonials = () => {
               >
                 {client.isCount ? (
                   <>
-                    <span className="text-3xl font-bold text-foreground">200+</span>
+                    <span className="text-3xl font-bold text-foreground">50+</span>
                     <span className="text-xs text-muted-foreground mt-1">More Clients</span>
                   </>
                 ) : (
