@@ -1,13 +1,23 @@
+import flagUS from "@/assets/flag-us.png";
+import flagEU from "@/assets/flag-eu.png";
+import flagChina from "@/assets/flag-china.png";
+import flagSouthKorea from "@/assets/flag-southkorea.jpg";
+import flagRussia from "@/assets/flag-russia.jpg";
+import flagKazakhstan from "@/assets/flag-kazakhstan.jpg";
+import flagUkraine from "@/assets/flag-ukraine.png";
+import flagPhilippines from "@/assets/flag-philippines.png";
+import flagThailand from "@/assets/flag-thailand.jpg";
+
 const countries = [
-  { name: "United States", flag: "🇺🇸" },
-  { name: "European Union", flag: "🇪🇺" },
-  { name: "China", flag: "🇨🇳" },
-  { name: "South Korea", flag: "🇰🇷" },
-  { name: "Russia", flag: "🇷🇺" },
-  { name: "Kazakhstan", flag: "🇰🇿" },
-  { name: "Ukraine", flag: "🇺🇦" },
-  { name: "Taiwan", flag: "🇹🇼" },
-  { name: "Philippines", flag: "🇵🇭" }
+  { name: "United States", flag: flagUS },
+  { name: "European Union", flag: flagEU },
+  { name: "China", flag: flagChina },
+  { name: "South Korea", flag: flagSouthKorea },
+  { name: "Russia", flag: flagRussia },
+  { name: "Kazakhstan", flag: flagKazakhstan },
+  { name: "Ukraine", flag: flagUkraine },
+  { name: "Philippines", flag: flagPhilippines },
+  { name: "Thailand", flag: flagThailand }
 ];
 
 const GeoSection = () => {
@@ -26,7 +36,11 @@ const GeoSection = () => {
                 key={`first-${index}`}
                 className="flex-shrink-0 mx-6 text-center"
               >
-                <div className="text-6xl mb-2">{country.flag}</div>
+                <img 
+                  src={country.flag} 
+                  alt={`${country.name} flag`}
+                  className="w-24 h-16 object-cover rounded-md shadow-md mb-2 mx-auto"
+                />
                 <p className="text-sm text-muted-foreground">{country.name}</p>
               </div>
             ))}
@@ -36,7 +50,11 @@ const GeoSection = () => {
                 key={`second-${index}`}
                 className="flex-shrink-0 mx-6 text-center"
               >
-                <div className="text-6xl mb-2">{country.flag}</div>
+                <img 
+                  src={country.flag} 
+                  alt={`${country.name} flag`}
+                  className="w-24 h-16 object-cover rounded-md shadow-md mb-2 mx-auto"
+                />
                 <p className="text-sm text-muted-foreground">{country.name}</p>
               </div>
             ))}
