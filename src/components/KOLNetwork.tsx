@@ -68,21 +68,6 @@ const KOLNetwork = () => {
                 </div>
               </div>
             ))}
-            {/* Third set for seamless loop */}
-            {kols.map((kol, index) => (
-              <div
-                key={`third-${index}`}
-                className="flex-shrink-0 mx-4"
-              >
-                <div className="w-24 h-24 rounded-full overflow-hidden bg-card border-2 border-border shadow-lg">
-                  <img 
-                    src={kol.image} 
-                    alt={kol.name}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              </div>
-            ))}
           </div>
         </div>
       </div>
