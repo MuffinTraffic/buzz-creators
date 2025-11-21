@@ -49,39 +49,6 @@ const Team = () => {
         twitter: "#",
         email: "blockbelle@muffin.agency"
       }
-    },
-    {
-      name: "Michael Rodriguez",
-      role: "Head of Strategy",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
-      bio: "Former CMO at leading Web3 companies",
-      social: {
-        linkedin: "#",
-        twitter: "#",
-        email: "michael@muffin.agency"
-      }
-    },
-    {
-      name: "Emily Zhang",
-      role: "Creative Director",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop",
-      bio: "Award-winning designer with a passion for crypto",
-      social: {
-        linkedin: "#",
-        twitter: "#",
-        email: "emily@muffin.agency"
-      }
-    },
-    {
-      name: "David Park",
-      role: "Lead Developer",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",
-      bio: "Blockchain architect and full-stack developer",
-      social: {
-        linkedin: "#",
-        twitter: "#",
-        email: "david@muffin.agency"
-      }
     }
   ];
 
