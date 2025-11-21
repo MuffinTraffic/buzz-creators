@@ -72,7 +72,6 @@ const Team = () => {
             Core Team
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Experts dedicated to elevating your crypto project<br />
             [Team of 10 people]
           </p>
         </div>
