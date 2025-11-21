@@ -19,7 +19,7 @@ const Team = () => {
     },
     {
       name: "Elias",
-      role: "Business Developer",
+      role: "Head of BD",
       image: eliasImage,
       bio: "Sold Out 32+ Projects and organised high quality Partnerships & Collaborations via web3 space for the last 5 years.",
       social: {
@@ -30,7 +30,7 @@ const Team = () => {
     },
     {
       name: "Netro",
-      role: "SMM Specialist",
+      role: "Senior SMM Manager",
       image: netroImage,
       bio: "Working for major Alpha communites, NFT and DeFi projects as head of SMM.",
       social: {
