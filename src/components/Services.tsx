@@ -1,4 +1,5 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
 import { Rocket, Target, TrendingUp, Zap, Globe, Lock } from "lucide-react";
 
 const services = [
@@ -10,11 +11,12 @@ const services = [
   {
     icon: Target,
     title: "Micro-KOL Marketing",
-    description: "Leverage niche influencers for authentic engagement and targeted community growth."
+    description: "Leverage niche influencers for authentic engagement and targeted community growth.",
+    badge: "Hot"
   },
   {
     icon: Lock,
-    title: "Go-to-Market",
+    title: "Go-to-Market Strategy",
     description: "Your team builds the solution. Our team builds the demand."
   },
   {
@@ -30,7 +32,8 @@ const services = [
   {
     icon: Zap,
     title: "X Organic Boosting",
-    description: "Build and nurture engaged communities that drive long-term project success."
+    description: "Build and nurture engaged communities that drive long-term project success.",
+    badge: "New"
   }
 ];
 
@@ -51,8 +54,15 @@ const Services = () => {
           {services.map((service, index) => (
             <Card 
               key={index}
-              className="border-border bg-card backdrop-blur-sm hover:border-primary transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
+              className="relative border-border bg-card backdrop-blur-sm hover:border-primary transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
             >
+              {service.badge && (
+                <Badge 
+                  className="absolute -top-2 -right-2 z-10 bg-gradient-to-r from-primary to-accent text-primary-foreground font-semibold"
+                >
+                  {service.badge}
+                </Badge>
+              )}
               <CardHeader>
                 <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
                   <service.icon className="w-6 h-6 text-primary" />
