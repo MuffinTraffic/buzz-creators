@@ -49,6 +49,17 @@ const Team = () => {
         twitter: "#",
         email: "blockbelle@muffin.agency"
       }
+    },
+    {
+      name: "Elias",
+      role: "X Boosting",
+      image: eliasImage,
+      bio: "An experienced community builder on X & Discord.",
+      social: {
+        linkedin: "#",
+        twitter: "#",
+        email: "elias@muffin.agency"
+      }
     }
   ];
 
