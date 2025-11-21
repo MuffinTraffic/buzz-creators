@@ -13,7 +13,7 @@ const kols = [
 
 const KOLNetwork = () => {
   return (
-    <section className="py-16 relative overflow-hidden">
+    <section id="kol-network" className="py-16 relative overflow-hidden">
       <div className="container mx-auto px-4">
         <h3 className="text-2xl md:text-3xl font-bold mb-8 text-center">
           KOL Network
