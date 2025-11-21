@@ -19,11 +19,11 @@ const Hero = () => {
       <div className="container mx-auto px-4 z-10 text-center">
         <div className="max-w-4xl mx-auto space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-1000">
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-            The Demand Generation <span className="text-gradient">Agency</span>
+            Crypto PR → <span className="text-gradient">Go-to-Market</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
-            Building Momentum for Web3 Brands. We spark engagement and deliver the results that matter.
+            Your team builds the solution. Our team builds the demand.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
