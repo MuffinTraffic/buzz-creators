@@ -2,6 +2,7 @@ import { Linkedin, Twitter, Mail } from "lucide-react";
 import kompyImage from "@/assets/kompy.jpg";
 import eliasImage from "@/assets/elias.jpg";
 import netroImage from "@/assets/netro.jpg";
+import blockbelleImage from "@/assets/blockbelle.jpg";
 
 const Team = () => {
   const teamMembers = [
@@ -36,6 +37,17 @@ const Team = () => {
         linkedin: "#",
         twitter: "#",
         email: "netro@muffin.agency"
+      }
+    },
+    {
+      name: "Blockbelle",
+      role: "Senior KOL Manager",
+      image: blockbelleImage,
+      bio: "5+ years in KOL Management. Expert in Trading, DeFi, Token niches.",
+      social: {
+        linkedin: "#",
+        twitter: "#",
+        email: "blockbelle@muffin.agency"
       }
     },
     {
