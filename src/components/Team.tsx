@@ -1,6 +1,7 @@
 import { Linkedin, Twitter, Mail } from "lucide-react";
 import kompyImage from "@/assets/kompy.jpg";
 import eliasImage from "@/assets/elias.jpg";
+import netroImage from "@/assets/netro.jpg";
 
 const Team = () => {
   const teamMembers = [
@@ -24,6 +25,17 @@ const Team = () => {
         linkedin: "#",
         twitter: "#",
         email: "elias@muffin.agency"
+      }
+    },
+    {
+      name: "Netro",
+      role: "SMM Specialist",
+      image: netroImage,
+      bio: "Working for major Alpha communites, NFT and DeFi projects as head of SMM.",
+      social: {
+        linkedin: "#",
+        twitter: "#",
+        email: "netro@muffin.agency"
       }
     },
     {
