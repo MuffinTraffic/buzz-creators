@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import muffinLogo from "@/assets/muffin-logo.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,12 +30,13 @@ const Navigation = () => {
           {/* Brand */}
           <a
             href="#"
-            className="text-xl md:text-2xl font-bold text-gradient hover:opacity-80 transition-opacity"
+            className="flex items-center gap-2 text-xl md:text-2xl font-bold text-gradient hover:opacity-80 transition-opacity"
             onClick={(e) => {
               e.preventDefault();
               window.scrollTo({ top: 0, behavior: "smooth" });
             }}
           >
+            <img src={muffinLogo} alt="Muffin Logo" className="w-8 h-8 md:w-10 md:h-10" />
             Muffin Agency
           </a>
 
