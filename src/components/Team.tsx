@@ -18,10 +18,10 @@ const Team = () => {
       }
     },
     {
-      name: "Elias",
+      name: "Michael",
       role: "Head of BD",
       image: eliasImage,
-      bio: "Sold Out 32+ Projects and organised high quality Partnerships & Collaborations via web3 space for the last 5 years.",
+      bio: "Organised high quality partnerships & collaborations in web3 space for the last 7 years.",
       social: {
         linkedin: "#",
         twitter: "#",
