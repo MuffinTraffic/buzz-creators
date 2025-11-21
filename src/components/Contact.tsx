@@ -22,7 +22,7 @@ const Contact = () => {
                 in the <span className="text-gradient">Decentralized World?</span>
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                No templates. No noise. Just strategies that drive growth in Web3
+                Web3 growth, without the fluff.
               </p>
               
               <div className="pt-4">
