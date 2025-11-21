@@ -58,20 +58,6 @@ const GeoSection = () => {
                 <p className="text-sm text-muted-foreground">{country.name}</p>
               </div>
             ))}
-            {/* Third set for seamless loop */}
-            {countries.map((country, index) => (
-              <div
-                key={`third-${index}`}
-                className="flex-shrink-0 mx-6 text-center"
-              >
-                <img 
-                  src={country.flag} 
-                  alt={`${country.name} flag`}
-                  className="w-24 h-16 object-cover rounded-md shadow-md mb-2 mx-auto"
-                />
-                <p className="text-sm text-muted-foreground">{country.name}</p>
-              </div>
-            ))}
           </div>
         </div>
       </div>
