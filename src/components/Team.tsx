@@ -76,7 +76,7 @@ const Team = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
           {teamMembers.map((member, index) => (
             <div
               key={index}
@@ -91,10 +91,10 @@ const Team = () => {
                 />
               </div>
               
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-1">{member.name}</h3>
-                <p className="text-primary font-medium mb-3">{member.role}</p>
-                <p className="text-sm text-muted-foreground mb-4">{member.bio}</p>
+              <div className="p-4">
+                <h3 className="text-lg font-bold mb-1">{member.name}</h3>
+                <p className="text-primary font-medium mb-2 text-sm">{member.role}</p>
+                <p className="text-xs text-muted-foreground mb-3">{member.bio}</p>
                 
                 <div className="flex gap-3">
                   <a
