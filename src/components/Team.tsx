@@ -3,6 +3,7 @@ import kompyImage from "@/assets/kompy.jpg";
 import eliasImage from "@/assets/elias.jpg";
 import netroImage from "@/assets/netro.jpg";
 import blockbelleImage from "@/assets/blockbelle.jpg";
+import michaelImage from "@/assets/michael.png";
 
 const Team = () => {
   const teamMembers = [
@@ -20,7 +21,7 @@ const Team = () => {
     {
       name: "Michael",
       role: "Head of BD",
-      image: eliasImage,
+      image: michaelImage,
       bio: "Organised high quality partnerships & collaborations in web3 space for the last 7 years.",
       social: {
         linkedin: "#",
