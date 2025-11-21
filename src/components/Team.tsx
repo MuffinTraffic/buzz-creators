@@ -1,5 +1,6 @@
 import { Linkedin, Twitter, Mail } from "lucide-react";
 import kompyImage from "@/assets/kompy.jpg";
+import eliasImage from "@/assets/elias.jpg";
 
 const Team = () => {
   const teamMembers = [
@@ -12,6 +13,17 @@ const Team = () => {
         linkedin: "#",
         twitter: "#",
         email: "kompy@muffin.agency"
+      }
+    },
+    {
+      name: "Elias",
+      role: "Business Developer",
+      image: eliasImage,
+      bio: "Sold Out 32+ Projects and organised high quality Partnerships & Collaborations via web3 space for the last 5 years.",
+      social: {
+        linkedin: "#",
+        twitter: "#",
+        email: "elias@muffin.agency"
       }
     },
     {
