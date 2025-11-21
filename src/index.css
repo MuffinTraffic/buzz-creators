@@ -80,16 +80,16 @@ All colors MUST be HSL.
     box-shadow: var(--glow-primary);
   }
   
-  @keyframes scroll-left {
+  @keyframes scroll-right {
     0% {
-      transform: translateX(0);
+      transform: translateX(-50%);
     }
     100% {
-      transform: translateX(-50%);
+      transform: translateX(0%);
     }
   }
   
-  .animate-scroll-left {
-    animation: scroll-left 30s linear infinite;
+  .animate-scroll-right {
+    animation: scroll-right 30s linear infinite;
   }
 }
