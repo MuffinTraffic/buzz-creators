@@ -24,9 +24,12 @@ const Testimonials = () => {
     <section id="testimonials" className="py-24 relative bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">
             Trusted by
           </h2>
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+            Our expertise spans all types of Web3 clients, including tokens, NFTs, marketplaces, protocols, and more.
+          </p>
         </div>
 
         <div className="max-w-5xl mx-auto">
