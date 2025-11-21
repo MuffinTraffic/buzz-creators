@@ -3,21 +3,21 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Alex Chen",
-    role: "Founder, CryptoVerse",
-    content: "Muffin helped us launch our NFT collection to a sold-out success. Their Web3 expertise and marketing strategies are unmatched.",
+    name: "Boris",
+    role: "Founder, Runner Bot",
+    content: "Almost $0 cost marketing, native bd communitcations and performance-focused SMM lead to user subscriptions and obtaining good B2B deals.",
     rating: 5
   },
   {
-    name: "Sarah Johnson",
-    role: "CMO, DeFi Protocol",
-    content: "The community building strategies they implemented grew our Discord from 500 to 50K members in just 3 months. Incredible results.",
+    name: "Nabrouia",
+    role: "Founder, Urban Node",
+    content: "Business Development & Collaborations were on high level, we made it possible to monetize the product on the 1st week of our work.",
     rating: 5
   },
   {
-    name: "Marcus Rodriguez",
-    role: "CEO, MetaDAO",
-    content: "Professional, responsive, and they truly understand the Web3 space. Our token launch exceeded all expectations thanks to their work.",
+    name: "Alex",
+    role: "Founder, Catapult",
+    content: "Nice job on getting tier1 KOLs onboard, we significantly increased volume on our platform!",
     rating: 5
   }
 ];
