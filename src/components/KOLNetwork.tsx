@@ -1,14 +1,25 @@
+import kol1 from "@/assets/kol-1.jpg";
+import kol2 from "@/assets/kol-2.jpg";
+import kol3 from "@/assets/kol-3.jpg";
+import kol4 from "@/assets/kol-4.jpg";
+import kol5 from "@/assets/kol-5.jpg";
+import kol6 from "@/assets/kol-6.jpg";
+import kol7 from "@/assets/kol-7.jpg";
+import kol8 from "@/assets/kol-8.jpg";
+import kol9 from "@/assets/kol-9.jpg";
+import kol10 from "@/assets/kol-10.jpg";
+
 const kols = [
-  { name: "KOL 1", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=1" },
-  { name: "KOL 2", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=2" },
-  { name: "KOL 3", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=3" },
-  { name: "KOL 4", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=4" },
-  { name: "KOL 5", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=5" },
-  { name: "KOL 6", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=6" },
-  { name: "KOL 7", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=7" },
-  { name: "KOL 8", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=8" },
-  { name: "KOL 9", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=9" },
-  { name: "KOL 10", image: "https://api.dicebear.com/7.x/avataaars/svg?seed=10" }
+  { name: "KOL 1", image: kol1 },
+  { name: "KOL 2", image: kol2 },
+  { name: "KOL 3", image: kol3 },
+  { name: "KOL 4", image: kol4 },
+  { name: "KOL 5", image: kol5 },
+  { name: "KOL 6", image: kol6 },
+  { name: "KOL 7", image: kol7 },
+  { name: "KOL 8", image: kol8 },
+  { name: "KOL 9", image: kol9 },
+  { name: "KOL 10", image: kol10 }
 ];
 
 const KOLNetwork = () => {
