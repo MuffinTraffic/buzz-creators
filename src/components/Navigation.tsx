@@ -8,8 +8,8 @@ const Navigation = () => {
 
   const navLinks = [
     { href: "#services", label: "Services" },
-    { href: "#team", label: "Team" },
     { href: "#testimonials", label: "Testimonials" },
+    { href: "#team", label: "Team" },
     { href: "#contact", label: "Contact" },
   ];
 
