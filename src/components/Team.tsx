@@ -1,16 +1,17 @@
 import { Linkedin, Twitter, Mail } from "lucide-react";
+import kompyImage from "@/assets/kompy.jpg";
 
 const Team = () => {
   const teamMembers = [
     {
-      name: "Sarah Chen",
+      name: "Kompy",
       role: "CEO & Founder",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
-      bio: "15+ years in crypto marketing and blockchain innovation",
+      image: kompyImage,
+      bio: "6+ years in KOL Management and Web3 Marketing. Ex. Urban Node, Thor Labs, Runner Bot, Icoda.",
       social: {
         linkedin: "#",
         twitter: "#",
-        email: "sarah@muffin.agency"
+        email: "kompy@muffin.agency"
       }
     },
     {
