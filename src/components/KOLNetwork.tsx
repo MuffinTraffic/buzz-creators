@@ -37,7 +37,7 @@ const KOLNetwork = () => {
         </h3>
         
         <div className="relative">
-          <div className="flex animate-scroll-left">
+          <div className="flex animate-scroll-right">
             {/* First set of KOLs */}
             {kols.map((kol, index) => (
               <div

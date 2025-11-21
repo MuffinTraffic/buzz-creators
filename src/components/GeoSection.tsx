@@ -29,7 +29,7 @@ const GeoSection = () => {
         </h3>
         
         <div className="relative">
-          <div className="flex animate-scroll-left">
+          <div className="flex animate-scroll-right">
             {/* First set of flags */}
             {countries.map((country, index) => (
               <div
