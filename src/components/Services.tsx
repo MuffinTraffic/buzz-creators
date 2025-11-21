@@ -14,8 +14,8 @@ const services = [
   },
   {
     icon: Lock,
-    title: "Crypto PR",
-    description: "Get featured in top crypto media outlets and build credibility in the space."
+    title: "Go-to-Market",
+    description: "Your team builds the solution. Our team builds the demand."
   },
   {
     icon: TrendingUp,
