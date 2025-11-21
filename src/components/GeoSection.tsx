@@ -12,7 +12,7 @@ const countries = [
 
 const GeoSection = () => {
   return (
-    <section className="py-16 relative overflow-hidden bg-gray-light/30">
+    <section id="reach" className="py-16 relative overflow-hidden bg-gray-light/30">
       <div className="container mx-auto px-4">
         <h3 className="text-2xl md:text-3xl font-bold mb-8 text-center">
           Global Reach
