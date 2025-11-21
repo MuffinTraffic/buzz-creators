@@ -8,6 +8,7 @@ const Navigation = () => {
 
   const navLinks = [
     { href: "#services", label: "Services" },
+    { href: "#team", label: "Team" },
     { href: "#testimonials", label: "Testimonials" },
     { href: "#contact", label: "Contact" },
   ];
