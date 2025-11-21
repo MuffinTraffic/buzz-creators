@@ -1,4 +1,4 @@
-import { Linkedin, Twitter, Mail } from "lucide-react";
+import { Twitter } from "lucide-react";
 import kompyImage from "@/assets/kompy.jpg";
 import eliasImage from "@/assets/elias.jpg";
 import netroImage from "@/assets/netro.jpg";
@@ -57,7 +57,7 @@ const Team = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gradient">
-            Meet Our Team
+            Core Team
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Experts dedicated to elevating your crypto project
@@ -86,25 +86,11 @@ const Team = () => {
                 
                 <div className="flex gap-3">
                   <a
-                    href={member.social.linkedin}
-                    className="text-muted-foreground hover:text-primary transition-colors"
-                    aria-label="LinkedIn"
-                  >
-                    <Linkedin size={20} />
-                  </a>
-                  <a
                     href={member.social.twitter}
                     className="text-muted-foreground hover:text-primary transition-colors"
                     aria-label="Twitter"
                   >
                     <Twitter size={20} />
-                  </a>
-                  <a
-                    href={`mailto:${member.social.email}`}
-                    className="text-muted-foreground hover:text-primary transition-colors"
-                    aria-label="Email"
-                  >
-                    <Mail size={20} />
                   </a>
                 </div>
               </div>
