@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Twitter, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import muffinLogo from "@/assets/muffin-logo.svg";
 
@@ -53,6 +53,24 @@ const Navigation = () => {
                 {link.label}
               </a>
             ))}
+            <div className="flex items-center gap-3">
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-foreground/80 hover:text-primary transition-colors"
+              >
+                <Twitter size={20} />
+              </a>
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-foreground/80 hover:text-primary transition-colors"
+              >
+                <Linkedin size={20} />
+              </a>
+            </div>
             <Button
               onClick={() => scrollToSection("#contact")}
               className="bg-gradient-to-r from-primary to-accent text-primary-foreground hover:opacity-90 transition-all"
@@ -89,6 +107,24 @@ const Navigation = () => {
                   {link.label}
                 </a>
               ))}
+              <div className="flex items-center gap-4 py-2">
+                <a
+                  href="https://twitter.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-foreground/80 hover:text-primary transition-colors"
+                >
+                  <Twitter size={20} />
+                </a>
+                <a
+                  href="https://linkedin.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-foreground/80 hover:text-primary transition-colors"
+                >
+                  <Linkedin size={20} />
+                </a>
+              </div>
               <Button
                 onClick={() => scrollToSection("#contact")}
                 className="bg-gradient-to-r from-primary to-accent text-primary-foreground hover:opacity-90 transition-all mt-2"
