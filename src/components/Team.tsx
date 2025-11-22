@@ -72,7 +72,7 @@ const Team = () => {
             Core Team
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            [Team of 10 people]
+            Team of 10 people
           </p>
         </div>
 
