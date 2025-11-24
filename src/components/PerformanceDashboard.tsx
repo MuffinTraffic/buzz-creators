@@ -5,7 +5,7 @@ import kolHealthCheck from "@/assets/kol-health-check.png";
 
 const PerformanceDashboard = () => {
   return (
-    <section className="py-24 relative overflow-hidden">
+    <section id="performance" className="py-24 relative overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <div className="inline-block mb-4">
