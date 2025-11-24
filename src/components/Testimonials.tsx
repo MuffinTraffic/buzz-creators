@@ -9,8 +9,8 @@ import fhLogo from "@/assets/client-fh.jpg";
 import newClientLogo from "@/assets/client-logo-new.jpg";
 
 const clients = [
-  { name: "Bunny", logo: bunnyLogo },
   { name: "Green", logo: greenLogo },
+  { name: "Bunny", logo: bunnyLogo },
   { name: "Pink", logo: pinkLogo },
   { name: "Beer 2.0", logo: beerLogo },
   { name: "Smiley", logo: smileyLogo },
