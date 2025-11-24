@@ -19,6 +19,17 @@ const Team = () => {
       }
     },
     {
+      name: "Blockbelle",
+      role: "Senior KOL Manager",
+      image: blockbelleImage,
+      bio: "5+ years in KOL Management. Expert in Trading, DeFi, Token niches.",
+      social: {
+        linkedin: "#",
+        twitter: "#",
+        email: "blockbelle@muffin.agency"
+      }
+    },
+    {
       name: "Michael",
       role: "Head of BD",
       image: michaelImage,
@@ -38,17 +49,6 @@ const Team = () => {
         linkedin: "#",
         twitter: "#",
         email: "netro@muffin.agency"
-      }
-    },
-    {
-      name: "Blockbelle",
-      role: "Senior KOL Manager",
-      image: blockbelleImage,
-      bio: "5+ years in KOL Management. Expert in Trading, DeFi, Token niches.",
-      social: {
-        linkedin: "#",
-        twitter: "#",
-        email: "blockbelle@muffin.agency"
       }
     },
     {
