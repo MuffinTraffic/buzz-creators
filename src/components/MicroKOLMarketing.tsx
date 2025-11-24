@@ -129,7 +129,7 @@ const MicroKOLMarketing = () => {
                 size="lg"
                 className="border-orange text-orange hover:bg-orange/10"
               >
-                Learn More
+                Book a Call
               </Button>
             </div>
           </div>
