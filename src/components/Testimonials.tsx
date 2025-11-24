@@ -6,6 +6,7 @@ import pinkLogo from "@/assets/client-pink.jpg";
 import beerLogo from "@/assets/client-beer.jpg";
 import smileyLogo from "@/assets/client-smiley.jpg";
 import fhLogo from "@/assets/client-fh.jpg";
+import newClientLogo from "@/assets/client-logo-new.jpg";
 
 const clients = [
   { name: "Catapult", logo: catapultLogo },
@@ -16,6 +17,7 @@ const clients = [
   { name: "Beer 2.0", logo: beerLogo },
   { name: "Smiley", logo: smileyLogo },
   { name: "FH", logo: fhLogo },
+  { name: "New Client", logo: newClientLogo },
   { name: "50+ More Clients", isCount: true }
 ];
 
