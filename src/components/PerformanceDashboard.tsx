@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { BarChart3, Activity, TrendingUp, CheckCircle2 } from "lucide-react";
 import kolPerformanceDashboard from "@/assets/kol-performance-dashboard.png";
+import kolHealthCheck from "@/assets/kol-health-check.png";
 
 const PerformanceDashboard = () => {
   return (
@@ -119,7 +120,7 @@ const PerformanceDashboard = () => {
             <Card className="relative border-border/50 overflow-hidden">
               <CardContent className="p-0">
                 <img
-                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop"
+                  src={kolHealthCheck}
                   alt="KOL Health Check Analytics"
                   className="w-full h-[400px] object-cover"
                 />
