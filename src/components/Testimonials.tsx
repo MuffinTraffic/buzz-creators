@@ -9,15 +9,15 @@ import fhLogo from "@/assets/client-fh.jpg";
 import newClientLogo from "@/assets/client-logo-new.jpg";
 
 const clients = [
-  { name: "Catapult", logo: catapultLogo },
-  { name: "Client A", logo: aLogo },
   { name: "Bunny", logo: bunnyLogo },
   { name: "Green", logo: greenLogo },
   { name: "Pink", logo: pinkLogo },
   { name: "Beer 2.0", logo: beerLogo },
   { name: "Smiley", logo: smileyLogo },
-  { name: "FH", logo: fhLogo },
   { name: "New Client", logo: newClientLogo },
+  { name: "Catapult", logo: catapultLogo },
+  { name: "Client A", logo: aLogo },
+  { name: "FH", logo: fhLogo },
   { name: "50+ More Clients", isCount: true }
 ];
 
