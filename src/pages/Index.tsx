@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
+import MicroKOLMarketing from "@/components/MicroKOLMarketing";
 import KOLNetwork from "@/components/KOLNetwork";
 import Stats from "@/components/Stats";
 import GeoSection from "@/components/GeoSection";
@@ -15,6 +16,7 @@ const Index = () => {
       <Navigation />
       <Hero />
       <Services />
+      <MicroKOLMarketing />
       <KOLNetwork />
       <Stats />
       <GeoSection />

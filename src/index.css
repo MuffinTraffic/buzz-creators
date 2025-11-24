@@ -45,6 +45,8 @@ All colors MUST be HSL.
     --navy: 222 47% 11%;
     --gray-light: 210 40% 96%;
     --gray: 215 16% 47%;
+    --orange: 25 95% 53%;
+    --orange-light: 25 95% 65%;
     
     /* Gradients */
     --gradient-hero: linear-gradient(135deg, hsl(199 89% 48%), hsl(199 89% 65%));
