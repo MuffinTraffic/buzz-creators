@@ -52,6 +52,8 @@ export default {
         navy: "hsl(var(--navy))",
         "gray-light": "hsl(var(--gray-light))",
         gray: "hsl(var(--gray))",
+        orange: "hsl(var(--orange))",
+        "orange-light": "hsl(var(--orange-light))",
       },
       borderRadius: {
         lg: "var(--radius)",
