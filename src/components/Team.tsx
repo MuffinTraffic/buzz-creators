@@ -20,7 +20,7 @@ const Team = () => {
     },
     {
       name: "Blockbelle",
-      role: "Senior KOL Manager",
+      role: "Senior KOL Manager & Co-Founder",
       image: blockbelleImage,
       bio: "5+ years in KOL Management. Expert in Trading, DeFi, Token niches.",
       social: {
