@@ -10,7 +10,7 @@ const services = [
   },
   {
     icon: Target,
-    title: "Micro-KOL Marketing",
+    title: "Micro-KOLs Campaign",
     description: "Leverage niche influencers for authentic engagement and targeted community growth.",
     badge: "Hot"
   },

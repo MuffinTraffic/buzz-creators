@@ -40,7 +40,7 @@ const MicroKOLMarketing = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
                 src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop"
-                alt="Micro-KOL Marketing Strategy"
+                alt="Micro-KOLs Campaign Strategy"
                 className="w-full h-[500px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy/60 to-transparent" />
@@ -72,7 +72,7 @@ const MicroKOLMarketing = () => {
                 Micro-KOLs <span className="text-gradient">Campaign</span>
               </h2>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                Leverage the power of niche influencers to create authentic connections and drive engagement that matters. Fully Managed Service: We handle outreach, content, approvals, posting and weekly reports.
+                Real visibility. Genuine engagement. Organic growth. Fully Managed Service: We handle outreach, content, approvals, posting and weekly reports.
               </p>
             </div>
 
@@ -107,7 +107,7 @@ const MicroKOLMarketing = () => {
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-1.5 h-1.5 rounded-full bg-orange mt-2 flex-shrink-0" />
-                  <p className="text-muted-foreground">1500+ creators with 1.5M+ combined audience</p>
+                  <p className="text-muted-foreground">500+ creators with 1.5M+ combined audience</p>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-1.5 h-1.5 rounded-full bg-orange mt-2 flex-shrink-0" />
