@@ -35,8 +35,8 @@ const Navigation = () => {
               window.scrollTo({ top: 0, behavior: "smooth" });
             }}
           >
-            <img src={muffinLogo} alt="Muffin Logo" className="w-8 h-8 md:w-10 md:h-10" />
-            Muffin Agency
+            <img src={muffinLogo} alt="Buzz Creators Logo" className="w-8 h-8 md:w-10 md:h-10" />
+            Buzz Creators
           </a>
 
           {/* Desktop Navigation */}
