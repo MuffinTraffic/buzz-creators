@@ -11,23 +11,23 @@ const MicroKOLMarketing = () => {
   const features = [
     {
       icon: Target,
-      title: "Targeted Reach",
-      description: "Connect with highly engaged niche audiences"
-    },
-    {
-      icon: Users,
-      title: "Authentic Engagement",
-      description: "Build genuine connections with active communities"
+      title: "2-3 Posts a week",
+      description: "Consistent presence with quality content"
     },
     {
       icon: TrendingUp,
-      title: "Higher ROI",
-      description: "Better conversion rates at lower costs"
+      title: "4-5 Retweets a week",
+      description: "Amplify your message across networks"
     },
     {
       icon: Zap,
-      title: "Rapid Results",
-      description: "Fast campaign deployment and measurable impact"
+      title: "Replies on 100% of your tweets",
+      description: "Full engagement with your content"
+    },
+    {
+      icon: Users,
+      title: "1,000+ avg. views per tweet",
+      description: "Guaranteed reach and visibility"
     }
   ];
 
@@ -69,10 +69,10 @@ const MicroKOLMarketing = () => {
                 </span>
               </div>
               <h2 className="text-4xl md:text-5xl font-bold">
-                Micro-KOL <span className="text-gradient">Marketing</span>
+                Micro-KOLs <span className="text-gradient">Campaign</span>
               </h2>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                Leverage the power of niche influencers to create authentic connections and drive meaningful engagement. Our extensive network of micro-KOLs delivers targeted reach with exceptional conversion rates.
+                Leverage the power of niche influencers to create authentic connections and drive engagement that matters. Fully Managed Service: We handle outreach, content, approvals, posting and weekly reports.
               </p>
             </div>
 
@@ -95,23 +95,23 @@ const MicroKOLMarketing = () => {
             </div>
 
             <div className="space-y-4">
-              <h3 className="text-lg font-semibold">Why Choose Micro-KOL Marketing?</h3>
+              <h3 className="text-lg font-semibold">Why Choose Micro-KOLs Campaign?</h3>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <div className="w-1.5 h-1.5 rounded-full bg-orange mt-2 flex-shrink-0" />
-                  <p className="text-muted-foreground">Higher engagement rates (up to 60% more) compared to macro influencers</p>
+                  <p className="text-muted-foreground">4k–15k real followers</p>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-1.5 h-1.5 rounded-full bg-orange mt-2 flex-shrink-0" />
-                  <p className="text-muted-foreground">More cost-effective campaigns with better ROI</p>
+                  <p className="text-muted-foreground">Wallchain X Score ≥70</p>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-1.5 h-1.5 rounded-full bg-orange mt-2 flex-shrink-0" />
-                  <p className="text-muted-foreground">Authentic voice that resonates with specific communities</p>
+                  <p className="text-muted-foreground">1500+ creators with 1.5M+ combined audience</p>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-1.5 h-1.5 rounded-full bg-orange mt-2 flex-shrink-0" />
-                  <p className="text-muted-foreground">Scalable approach across multiple niches simultaneously</p>
+                  <p className="text-muted-foreground">Niche-relevant, high-engagement accounts</p>
                 </li>
               </ul>
             </div>

@@ -23,7 +23,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
-            Building Momentum for Web3 Brands. We lock in results.
+            Ready to create real buzz without the noise?
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
