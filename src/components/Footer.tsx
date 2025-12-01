@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-muted-foreground">
-            © 2024 Muffin Marketing. All rights reserved.
+            © 2024 Buzz Creators. All rights reserved.
           </div>
           
           <div className="flex gap-4">

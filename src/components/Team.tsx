@@ -9,13 +9,13 @@ const Team = () => {
   const teamMembers = [
     {
       name: "Kompy",
-      role: "CEO & Founder",
+      role: "CEO & Co-Founder",
       image: kompyImage,
       bio: "6+ years in KOL Management and Web3 Marketing. Ex. Urban Node, Thor Labs, Runner Bot, Icoda.",
       social: {
         linkedin: "#",
         twitter: "#",
-        email: "kompy@muffin.agency"
+        email: "kompy@buzzcreators.agency"
       }
     },
     {
@@ -26,7 +26,7 @@ const Team = () => {
       social: {
         linkedin: "#",
         twitter: "#",
-        email: "blockbelle@muffin.agency"
+        email: "blockbelle@buzzcreators.agency"
       }
     },
     {
@@ -37,7 +37,7 @@ const Team = () => {
       social: {
         linkedin: "#",
         twitter: "#",
-        email: "elias@muffin.agency"
+        email: "michael@buzzcreators.agency"
       }
     },
     {
@@ -48,7 +48,7 @@ const Team = () => {
       social: {
         linkedin: "#",
         twitter: "#",
-        email: "netro@muffin.agency"
+        email: "netro@buzzcreators.agency"
       }
     },
     {
@@ -59,7 +59,7 @@ const Team = () => {
       social: {
         linkedin: "#",
         twitter: "#",
-        email: "elias@muffin.agency"
+        email: "elias@buzzcreators.agency"
       }
     }
   ];
