@@ -11,7 +11,7 @@ const Team = () => {
       name: "Kompy",
       role: "CEO & Co-Founder",
       image: kompyImage,
-      bio: "6+ years in KOL Management and Web3 Marketing. Ex. Urban Node, Thor Labs, Runner Bot, Icoda.",
+      bio: "6+ years in KOL Management and Web3 Marketing. Head of CIS at Frontrun. Web3 Events Speaker. Ex. Urban Node, Thor Labs, Runner Bot, Icoda.",
       social: {
         linkedin: "#",
         twitter: "#",

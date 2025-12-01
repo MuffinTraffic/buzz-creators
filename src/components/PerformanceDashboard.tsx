@@ -101,14 +101,14 @@ const PerformanceDashboard = () => {
                 <Activity className="w-5 h-5 text-orange mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-semibold text-foreground">Content Quality</p>
-                  <p className="text-sm text-muted-foreground">Evaluate consistency and production value</p>
+                  <p className="text-sm text-muted-foreground">Evaluate consistency and production value of each KOL</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <Activity className="w-5 h-5 text-orange mt-1 flex-shrink-0" />
                 <div>
-                  <p className="font-semibold text-foreground">Brand Safety</p>
-                  <p className="text-sm text-muted-foreground">Monitor alignment with your brand values</p>
+                  <p className="font-semibold text-foreground">Web3 Scores</p>
+                  <p className="text-sm text-muted-foreground">Get insights on the KOL score + Smart Followers from various web3 resources</p>
                 </div>
               </div>
             </div>
