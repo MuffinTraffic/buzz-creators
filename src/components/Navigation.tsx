@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, X, Twitter, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import muffinLogo from "@/assets/muffin-logo.svg";
+import buzzLogo from "@/assets/buzz-logo.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,7 +35,7 @@ const Navigation = () => {
               window.scrollTo({ top: 0, behavior: "smooth" });
             }}
           >
-            <img src={muffinLogo} alt="Buzz Creators Logo" className="w-8 h-8 md:w-10 md:h-10" />
+            <img src={buzzLogo} alt="Buzz Creators Logo" className="w-8 h-8 md:w-10 md:h-10" />
             Buzz Creators
           </a>
 
