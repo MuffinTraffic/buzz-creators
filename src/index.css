@@ -8,33 +8,33 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Clean Modern Palette - Light & Professional */
-    --background: 0 0% 98%;
-    --foreground: 222 47% 11%;
+    /* Custom Palette */
+    --background: 180 14% 89%;
+    --foreground: 0 2% 19%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222 47% 11%;
+    --card: 180 14% 94%;
+    --card-foreground: 0 2% 19%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222 47% 11%;
+    --popover: 180 14% 94%;
+    --popover-foreground: 0 2% 19%;
 
     --primary: 130 65% 55%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96%;
-    --secondary-foreground: 222 47% 11%;
+    --secondary: 236 26% 61%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 40% 96%;
-    --muted-foreground: 215 16% 47%;
+    --muted: 180 14% 84%;
+    --muted-foreground: 0 2% 35%;
 
-    --accent: 130 65% 55%;
+    --accent: 27 47% 43%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 214 32% 91%;
-    --input: 214 32% 91%;
+    --border: 180 10% 80%;
+    --input: 180 10% 80%;
     --ring: 130 65% 55%;
 
     --radius: 0.75rem;
@@ -42,19 +42,21 @@ All colors MUST be HSL.
     /* Custom tokens */
     --teal: 130 65% 55%;
     --teal-light: 130 70% 75%;
-    --navy: 222 47% 11%;
-    --gray-light: 210 40% 96%;
-    --gray: 215 16% 47%;
-    --orange: 25 95% 53%;
-    --orange-light: 25 95% 65%;
+    --navy: 0 2% 19%;
+    --purple: 236 26% 61%;
+    --purple-light: 236 26% 75%;
+    --bronze: 27 47% 43%;
+    --bronze-light: 27 47% 55%;
+    --gray-light: 180 14% 84%;
+    --gray: 0 2% 35%;
     
     /* Gradients */
     --gradient-hero: linear-gradient(135deg, hsl(130 65% 55%), hsl(130 70% 75%));
-    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%), hsl(210 40% 98%));
+    --gradient-card: linear-gradient(180deg, hsl(180 14% 94%), hsl(180 14% 89%));
     
     /* Effects */
     --glow-primary: 0 8px 32px hsl(130 65% 55% / 0.2);
-    --shadow-elevated: 0 4px 20px hsl(222 47% 11% / 0.08);
+    --shadow-elevated: 0 4px 20px hsl(0 2% 19% / 0.08);
   }
 }
 
