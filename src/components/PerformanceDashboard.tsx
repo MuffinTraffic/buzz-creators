@@ -9,7 +9,7 @@ const PerformanceDashboard = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <div className="inline-block mb-4">
-            <span className="px-4 py-1.5 bg-orange/10 text-orange rounded-full text-sm font-semibold">
+            <span className="px-4 py-1.5 bg-secondary/10 text-secondary rounded-full text-sm font-semibold">
               Real-Time Analytics
             </span>
           </div>
@@ -25,7 +25,7 @@ const PerformanceDashboard = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
           {/* First Image - KOL Performance Tracking */}
           <div className="relative group">
-            <div className="absolute -inset-1 bg-gradient-to-r from-orange to-orange-light rounded-2xl opacity-25 group-hover:opacity-40 blur transition duration-300"></div>
+            <div className="absolute -inset-1 bg-gradient-to-r from-primary to-teal-light rounded-2xl opacity-25 group-hover:opacity-40 blur transition duration-300"></div>
             <Card className="relative border-border/50 overflow-hidden">
               <CardContent className="p-0">
                 <img
@@ -35,8 +35,8 @@ const PerformanceDashboard = () => {
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-background via-background/80 to-transparent p-8">
                   <div className="flex items-center gap-3 mb-2">
-                    <div className="w-10 h-10 rounded-lg bg-orange/20 flex items-center justify-center">
-                      <BarChart3 className="w-5 h-5 text-orange" />
+                    <div className="w-10 h-10 rounded-lg bg-primary/20 flex items-center justify-center">
+                      <BarChart3 className="w-5 h-5 text-primary" />
                     </div>
                     <h3 className="text-xl font-bold text-foreground">KOL Performance Tracking</h3>
                   </div>
@@ -57,21 +57,21 @@ const PerformanceDashboard = () => {
             </p>
             <div className="space-y-4">
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-5 h-5 text-orange mt-1 flex-shrink-0" />
+                <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-semibold text-foreground">Real-Time Metrics</p>
                   <p className="text-sm text-muted-foreground">Live data updates for immediate insights</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-5 h-5 text-orange mt-1 flex-shrink-0" />
+                <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-semibold text-foreground">Engagement Analytics</p>
                   <p className="text-sm text-muted-foreground">Track likes, shares, comments, and conversions</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <CheckCircle2 className="w-5 h-5 text-orange mt-1 flex-shrink-0" />
+                <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-semibold text-foreground">ROI Calculation</p>
                   <p className="text-sm text-muted-foreground">Measure campaign profitability automatically</p>
@@ -91,21 +91,21 @@ const PerformanceDashboard = () => {
             </p>
             <div className="space-y-4">
               <div className="flex items-start gap-3">
-                <Activity className="w-5 h-5 text-orange mt-1 flex-shrink-0" />
+                <Activity className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-semibold text-foreground">Authenticity Score</p>
                   <p className="text-sm text-muted-foreground">Detect fake followers and engagement patterns</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <Activity className="w-5 h-5 text-orange mt-1 flex-shrink-0" />
+                <Activity className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-semibold text-foreground">Content Quality</p>
                   <p className="text-sm text-muted-foreground">Evaluate consistency and production value of each KOL</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <Activity className="w-5 h-5 text-orange mt-1 flex-shrink-0" />
+                <Activity className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-semibold text-foreground">Web3 Scores</p>
                   <p className="text-sm text-muted-foreground">Get insights on the KOL score + Smart Followers from various web3 resources</p>
@@ -116,7 +116,7 @@ const PerformanceDashboard = () => {
 
           {/* Second Image - KOL Health Check */}
           <div className="relative group order-1 lg:order-2">
-            <div className="absolute -inset-1 bg-gradient-to-r from-orange-light to-orange rounded-2xl opacity-25 group-hover:opacity-40 blur transition duration-300"></div>
+            <div className="absolute -inset-1 bg-gradient-to-r from-teal-light to-primary rounded-2xl opacity-25 group-hover:opacity-40 blur transition duration-300"></div>
             <Card className="relative border-border/50 overflow-hidden">
               <CardContent className="p-0">
                 <img
@@ -126,8 +126,8 @@ const PerformanceDashboard = () => {
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-background via-background/80 to-transparent p-8">
                   <div className="flex items-center gap-3 mb-2">
-                    <div className="w-10 h-10 rounded-lg bg-orange/20 flex items-center justify-center">
-                      <Activity className="w-5 h-5 text-orange" />
+                    <div className="w-10 h-10 rounded-lg bg-primary/20 flex items-center justify-center">
+                      <Activity className="w-5 h-5 text-primary" />
                     </div>
                     <h3 className="text-xl font-bold text-foreground">KOL Health Check</h3>
                   </div>
