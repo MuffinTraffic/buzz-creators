@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Target, Users, TrendingUp, Zap } from "lucide-react";
+import microKolCampaign from "@/assets/micro-kol-campaign.jpg";
 
 const MicroKOLMarketing = () => {
   const scrollToContact = () => {
@@ -39,7 +40,7 @@ const MicroKOLMarketing = () => {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop"
+                src={microKolCampaign}
                 alt="Micro-KOLs Campaign Strategy"
                 className="w-full h-[500px] object-cover"
               />
