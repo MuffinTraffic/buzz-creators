@@ -58,7 +58,7 @@ const Services = () => {
             >
               {service.badge && (
                 <Badge 
-                  className="absolute -top-2 -right-2 z-10 bg-gradient-to-r from-orange to-orange-light text-white font-semibold"
+                  className="absolute -top-2 -right-2 z-10 bg-secondary text-secondary-foreground font-semibold"
                 >
                   {service.badge}
                 </Badge>
