@@ -12,55 +12,35 @@ const Team = () => {
       role: "CEO & Co-Founder",
       image: kompyImage,
       bio: "6+ years in KOL Management and Web3 Marketing. Head of CIS at Frontrun. Web3 Events Speaker. Ex. Urban Node, Thor Labs, Runner Bot, Icoda.",
-      social: {
-        linkedin: "#",
-        twitter: "#",
-        email: "kompy@buzzcreators.agency"
-      }
+      twitter: "https://x.com/kompyweb3"
     },
     {
       name: "Blockbelle",
       role: "Senior KOL Manager & Co-Founder",
       image: blockbelleImage,
       bio: "5+ years in KOL Management. Expert in Trading, DeFi, Token niches.",
-      social: {
-        linkedin: "#",
-        twitter: "#",
-        email: "blockbelle@buzzcreators.agency"
-      }
+      twitter: "https://x.com/blockkbelle"
     },
     {
       name: "Michael",
       role: "Head of BD",
       image: michaelImage,
       bio: "Organised high quality partnerships & collaborations in web3 space for the last 7 years.",
-      social: {
-        linkedin: "#",
-        twitter: "#",
-        email: "michael@buzzcreators.agency"
-      }
+      twitter: "https://x.com/michaelbuzz3"
     },
     {
       name: "Netro",
       role: "Senior SMM Manager",
       image: netroImage,
       bio: "Working for major Alpha communites, NFT and DeFi projects as head of SMM.",
-      social: {
-        linkedin: "#",
-        twitter: "#",
-        email: "netro@buzzcreators.agency"
-      }
+      twitter: "https://x.com/netrobuzz"
     },
     {
       name: "Elias",
       role: "X Boosting",
       image: eliasImage,
       bio: "An experienced community builder on X & Discord.",
-      social: {
-        linkedin: "#",
-        twitter: "#",
-        email: "elias@buzzcreators.agency"
-      }
+      twitter: "https://x.com/eliasbuzz3"
     }
   ];
 
@@ -98,7 +78,9 @@ const Team = () => {
                 
                 <div className="flex gap-3">
                   <a
-                    href={member.social.twitter}
+                    href={member.twitter}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-primary transition-colors"
                     aria-label="Twitter"
                   >

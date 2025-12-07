@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { BarChart3, Activity, TrendingUp, CheckCircle2 } from "lucide-react";
+import { BarChart3, Activity, CheckCircle2 } from "lucide-react";
 import kolPerformanceDashboard from "@/assets/kol-performance-dashboard.png";
 import kolHealthCheck from "@/assets/kol-health-check.png";
 
@@ -17,7 +17,7 @@ const PerformanceDashboard = () => {
             Performance <span className="text-gradient">Dashboard</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Track every metric that matters with our comprehensive performance dashboard. 
+            Track every metric that matters with our comprehensively buzz dashboard.
             Monitor KOL health, engagement rates, and campaign ROI in real-time.
           </p>
         </div>
