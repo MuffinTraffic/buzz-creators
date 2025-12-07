@@ -4,20 +4,22 @@ import bunnyLogo from "@/assets/client-bunny.jpg";
 import greenLogo from "@/assets/client-green.jpg";
 import pinkLogo from "@/assets/client-pink.jpg";
 import beerLogo from "@/assets/client-beer.jpg";
-import smileyLogo from "@/assets/client-smiley.jpg";
+import redHoodLogo from "@/assets/client-red-hood.jpg";
 import fhLogo from "@/assets/client-fh.jpg";
 import newClientLogo from "@/assets/client-logo-new.jpg";
+import birdLogo from "@/assets/client-bird.jpg";
 
 const clients = [
   { name: "Green", logo: greenLogo },
   { name: "Bunny", logo: bunnyLogo },
   { name: "Pink", logo: pinkLogo },
   { name: "Beer 2.0", logo: beerLogo },
-  { name: "Smiley", logo: smileyLogo },
+  { name: "Red Hood", logo: redHoodLogo },
   { name: "New Client", logo: newClientLogo },
   { name: "Catapult", logo: catapultLogo },
   { name: "Client A", logo: aLogo },
   { name: "FH", logo: fhLogo },
+  { name: "Bird", logo: birdLogo },
   { name: "50+ More Clients", isCount: true }
 ];
 
@@ -56,7 +58,7 @@ const Testimonials = () => {
                 ))}
               </div>
               
-              <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 gap-6 max-w-3xl mx-auto">
+              <div className="grid grid-cols-2 sm:grid-cols-5 md:grid-cols-5 gap-6 max-w-4xl mx-auto">
                 {clients.slice(6).map((client, index) => (
                   <div 
                     key={index}

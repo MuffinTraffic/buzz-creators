@@ -60,7 +60,7 @@ const Navigation = () => {
             </span>
             <div className="flex items-center gap-3">
               <a
-                href="https://twitter.com"
+                href="https://x.com/buzzzcreators"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground/80 hover:text-primary transition-colors"
@@ -69,7 +69,7 @@ const Navigation = () => {
               </a>
             </div>
             <Button
-              onClick={() => scrollToSection("#contact")}
+              onClick={() => window.open('https://calendly.com/kompy/30min?back=1&month=2025-12', '_blank')}
               className="bg-gradient-to-r from-primary to-teal-light text-primary-foreground hover:opacity-90 transition-all"
             >
               Book a Free Consultation
@@ -109,7 +109,7 @@ const Navigation = () => {
               </span>
               <div className="flex items-center gap-4 py-2">
                 <a
-                  href="https://twitter.com"
+                  href="https://x.com/buzzzcreators"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-foreground/80 hover:text-primary transition-colors"
@@ -118,7 +118,7 @@ const Navigation = () => {
                 </a>
               </div>
               <Button
-                onClick={() => scrollToSection("#contact")}
+                onClick={() => window.open('https://calendly.com/kompy/30min?back=1&month=2025-12', '_blank')}
                 className="bg-gradient-to-r from-primary to-teal-light text-primary-foreground hover:opacity-90 transition-all mt-2"
               >
                 Book a Free Consultation
