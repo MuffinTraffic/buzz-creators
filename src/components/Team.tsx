@@ -11,36 +11,36 @@ const Team = () => {
       name: "Kompy",
       role: "CEO & Co-Founder",
       image: kompyImage,
-      bio: "6+ years in KOL Management and Web3 Marketing. Head of CIS at Frontrun. Web3 Events Speaker. Ex. Urban Node, Thor Labs, Runner Bot, Icoda.",
-      twitter: "https://x.com/kompyweb3"
+      bio: "6+ years in Web3 Marketing & KOL Management. Blockchain Events Speaker. Head of CIS at Frontrun. Member of Solana SuperteamKZ.",
+      twitter: "https://x.com/theKompy"
     },
     {
       name: "Blockbelle",
-      role: "Senior KOL Manager & Co-Founder",
+      role: "COO & Co-Founder",
       image: blockbelleImage,
-      bio: "5+ years in KOL Management. Expert in Trading, DeFi, Token niches.",
-      twitter: "https://x.com/blockkbelle"
+      bio: "5+ years in Fullcycle Marketing & Web3 KOL Management. Expert in Trading, DeFi, Token niches.",
+      twitter: "https://x.com/b1ockbelle"
     },
     {
       name: "Michael",
       role: "Head of BD",
       image: michaelImage,
-      bio: "Organised high quality partnerships & collaborations in web3 space for the last 7 years.",
-      twitter: "https://x.com/michaelbuzz3"
+      bio: "8+ years in Business Development. AMA Host. Casually organising high quality partnerships & collaborations in Web3 DeFi space.",
+      twitter: "https://x.com/NeuronBizdev"
     },
     {
       name: "Netro",
       role: "Senior SMM Manager",
       image: netroImage,
-      bio: "Working for major Alpha communites, NFT and DeFi projects as head of SMM.",
-      twitter: "https://x.com/netrobuzz"
+      bio: "3+ years in SMM. Perfect fit for DeFi, Alpha, NFT projects. HOH Alpha SMM leader.",
+      twitter: "https://x.com/Netrovert_X"
     },
     {
       name: "Elias",
-      role: "X Boosting",
+      role: "X Boosting Manager",
       image: eliasImage,
-      bio: "An experienced community builder on X & Discord.",
-      twitter: "https://x.com/eliasbuzz3"
+      bio: "4+ years in Business Development & Community Building (X & Discord). Founder of Shinigami Alpha.",
+      twitter: "https://x.com/_Eliasoul_"
     }
   ];
 

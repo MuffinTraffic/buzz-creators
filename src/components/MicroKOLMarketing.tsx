@@ -73,7 +73,9 @@ const MicroKOLMarketing = () => {
                 Micro-KOLs <span className="text-gradient">Campaign</span>
               </h2>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                Real visibility. Genuine engagement. Organic growth. Fully Managed Service: We handle outreach, content, approvals, posting and weekly reports.
+                Real visibility. Genuine engagement. Organic growth.
+                <br />
+                Fully Managed Service: We handle outreach, content, approvals, posting and weekly reports.
               </p>
             </div>
 
@@ -96,7 +98,7 @@ const MicroKOLMarketing = () => {
             </div>
 
             <div className="space-y-4">
-              <h3 className="text-lg font-semibold">What do you get weekly?</h3>
+              <h3 className="text-lg font-semibold">What do you get monthly?</h3>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <div className="w-3 h-3 rounded-full bg-primary mt-1.5 flex-shrink-0 shadow-[0_0_10px_hsl(130_65%_55%/0.6)]" />
@@ -115,14 +117,14 @@ const MicroKOLMarketing = () => {
 
             <div className="flex gap-4">
               <Button 
-                onClick={() => window.open('https://your-sales-deck-link.com', '_blank')}
+                onClick={() => window.open('https://pitch.com/v/buzz-creators---sales-deck-4g8p9d', '_blank')}
                 className="bg-primary text-primary-foreground hover:bg-primary/90 transition-all"
                 size="lg"
               >
                 Check Sales Deck
               </Button>
               <Button 
-                onClick={scrollToContact}
+                onClick={() => window.open('https://calendly.com/kompy/30min?back=1&month=2025-12', '_blank')}
                 size="lg"
                 className="bg-primary text-primary-foreground hover:bg-primary/90"
               >

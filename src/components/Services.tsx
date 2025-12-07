@@ -32,7 +32,7 @@ const services = [
   {
     icon: Zap,
     title: "X Organic Boosting",
-    description: "Build and nurture engaged communities that drive long-term project success.",
+    description: "Get visibility by driving long-term boosting on top of your tweets from web3 communities.",
     badge: "New"
   }
 ];
@@ -46,7 +46,7 @@ const Services = () => {
             Our <span className="text-gradient">Services</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive Web3 marketing solutions tailored to your project's unique needs
+            No cookie-cutter plays. Just smart, tailored Web3 marketing that fits your vibe and hits the mark.
           </p>
         </div>
 

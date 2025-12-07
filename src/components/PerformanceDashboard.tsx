@@ -18,6 +18,7 @@ const PerformanceDashboard = () => {
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Track every metric that matters with our comprehensively buzz dashboard.
+            <br />
             Monitor KOL health, engagement rates, and campaign ROI in real-time.
           </p>
         </div>
