@@ -11,29 +11,29 @@ const MicroKOLMarketing = () => {
 
   const features = [
     {
-      icon: Target,
-      title: "2-3 Posts a week",
-      description: "Consistent presence with quality content"
+      icon: Users,
+      title: "500+ creators",
+      description: "Extensive network of verified micro-influencers"
     },
     {
       icon: TrendingUp,
-      title: "4-5 Retweets a week",
-      description: "Amplify your message across networks"
+      title: "1.5M+ combined audience",
+      description: "Massive reach across Web3 communities"
+    },
+    {
+      icon: Target,
+      title: "4k–15k real followers",
+      description: "Authentic, engaged audiences"
     },
     {
       icon: Zap,
-      title: "Replies on 100% of your tweets",
-      description: "Full engagement with your content"
-    },
-    {
-      icon: Users,
-      title: "1,000+ avg. views per tweet",
-      description: "Guaranteed reach and visibility"
+      title: "Wallchain X Score ≥70",
+      description: "High-quality, verified accounts"
     }
   ];
 
   return (
-    <section className="py-24 relative bg-gradient-to-b from-background to-gray-light/30">
+    <section id="micro-kols" className="py-24 relative bg-gradient-to-b from-background to-gray-light/30">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Image Side */}
@@ -96,39 +96,35 @@ const MicroKOLMarketing = () => {
             </div>
 
             <div className="space-y-4">
-              <h3 className="text-lg font-semibold">Why Choose Micro-KOLs Campaign?</h3>
+              <h3 className="text-lg font-semibold">What do you get weekly?</h3>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
-                  <p className="text-muted-foreground">4k–15k real followers</p>
+                  <div className="w-3 h-3 rounded-full bg-primary mt-1.5 flex-shrink-0 shadow-[0_0_10px_hsl(130_65%_55%/0.6)]" />
+                  <p className="text-muted-foreground">Up to 150 high-quality original posts about the project</p>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
-                  <p className="text-muted-foreground">Wallchain X Score ≥70</p>
+                  <div className="w-3 h-3 rounded-full bg-primary mt-1.5 flex-shrink-0 shadow-[0_0_10px_hsl(130_65%_55%/0.6)]" />
+                  <p className="text-muted-foreground">Up to 250 retweets</p>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
-                  <p className="text-muted-foreground">500+ creators with 1.5M+ combined audience</p>
-                </li>
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
-                  <p className="text-muted-foreground">Niche-relevant, high-engagement accounts</p>
+                  <div className="w-3 h-3 rounded-full bg-primary mt-1.5 flex-shrink-0 shadow-[0_0_10px_hsl(130_65%_55%/0.6)]" />
+                  <p className="text-muted-foreground">Nonstop engagement with your content</p>
                 </li>
               </ul>
             </div>
 
             <div className="flex gap-4">
               <Button 
-                onClick={scrollToContact}
+                onClick={() => window.open('https://your-sales-deck-link.com', '_blank')}
                 className="bg-primary text-primary-foreground hover:bg-primary/90 transition-all"
                 size="lg"
               >
-                Get Started Today
+                Check Sales Deck
               </Button>
               <Button 
-                variant="outline"
+                onClick={scrollToContact}
                 size="lg"
-                className="border-primary text-primary hover:bg-primary/10"
+                className="bg-primary text-primary-foreground hover:bg-primary/90"
               >
                 Book a Call
               </Button>

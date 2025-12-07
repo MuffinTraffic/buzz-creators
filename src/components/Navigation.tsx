@@ -1,13 +1,14 @@
 import { useState } from "react";
-import { Menu, X, Twitter, Linkedin } from "lucide-react";
+import { Menu, X, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import buzzLogo from "@/assets/buzz-logo.png";
+import buzzLogo from "@/assets/buzz-logo-green.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
     { href: "#services", label: "Services" },
+    { href: "#micro-kols", label: "Micro-KOLs" },
     { href: "#performance", label: "Dashboard" },
     { href: "#testimonials", label: "Clients" },
     { href: "#team", label: "Team" },
@@ -29,7 +30,7 @@ const Navigation = () => {
           {/* Brand */}
           <a
             href="#"
-            className="flex items-center gap-2 text-xl md:text-2xl font-bold text-gradient hover:opacity-80 transition-opacity"
+            className="flex items-center gap-2 text-xl md:text-2xl font-bold text-foreground hover:opacity-80 transition-opacity"
             onClick={(e) => {
               e.preventDefault();
               window.scrollTo({ top: 0, behavior: "smooth" });
@@ -54,6 +55,9 @@ const Navigation = () => {
                 {link.label}
               </a>
             ))}
+            <span className="px-3 py-1 bg-secondary/10 text-secondary rounded-full text-xs font-semibold">
+              Clipper service coming soon!
+            </span>
             <div className="flex items-center gap-3">
               <a
                 href="https://twitter.com"
@@ -63,18 +67,10 @@ const Navigation = () => {
               >
                 <Twitter size={20} />
               </a>
-              <a
-                href="https://linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-foreground/80 hover:text-primary transition-colors"
-              >
-                <Linkedin size={20} />
-              </a>
             </div>
             <Button
               onClick={() => scrollToSection("#contact")}
-              className="bg-gradient-to-r from-primary to-accent text-primary-foreground hover:opacity-90 transition-all"
+              className="bg-gradient-to-r from-primary to-teal-light text-primary-foreground hover:opacity-90 transition-all"
             >
               Book a Free Consultation
             </Button>
@@ -108,6 +104,9 @@ const Navigation = () => {
                   {link.label}
                 </a>
               ))}
+              <span className="px-3 py-1 bg-secondary/10 text-secondary rounded-full text-xs font-semibold w-fit">
+                Clipper service coming soon!
+              </span>
               <div className="flex items-center gap-4 py-2">
                 <a
                   href="https://twitter.com"
@@ -117,18 +116,10 @@ const Navigation = () => {
                 >
                   <Twitter size={20} />
                 </a>
-                <a
-                  href="https://linkedin.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-foreground/80 hover:text-primary transition-colors"
-                >
-                  <Linkedin size={20} />
-                </a>
               </div>
               <Button
                 onClick={() => scrollToSection("#contact")}
-                className="bg-gradient-to-r from-primary to-accent text-primary-foreground hover:opacity-90 transition-all mt-2"
+                className="bg-gradient-to-r from-primary to-teal-light text-primary-foreground hover:opacity-90 transition-all mt-2"
               >
                 Book a Free Consultation
               </Button>

@@ -1,4 +1,4 @@
-import { Twitter, Linkedin, Github } from "lucide-react";
+import { Twitter } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -11,25 +11,13 @@ const Footer = () => {
           
           <div className="flex gap-4">
             <a 
-              href="#" 
+              href="https://twitter.com" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors"
               aria-label="Twitter"
             >
               <Twitter className="w-5 h-5 text-primary" />
-            </a>
-            <a 
-              href="#" 
-              className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors"
-              aria-label="LinkedIn"
-            >
-              <Linkedin className="w-5 h-5 text-primary" />
-            </a>
-            <a 
-              href="#" 
-              className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors"
-              aria-label="GitHub"
-            >
-              <Github className="w-5 h-5 text-primary" />
             </a>
           </div>
         </div>
