@@ -1,6 +1,6 @@
 const stats = [
   { number: "50+", label: "Clients Worldwide" },
-  { number: "1000+", label: "KOLs Network" },
+  { number: "2000+", label: "KOLs Network" },
   { number: "150+", label: "Campaigns Launched" },
   { number: "10M+", label: "Impressions Generated" },
   { number: "$30M+", label: "Raised by our clients" }
