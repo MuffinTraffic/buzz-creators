@@ -13,7 +13,7 @@ const MicroKOLMarketing = () => {
     {
       icon: Users,
       title: "500+ creators",
-      description: "Extensive network of verified micro-influencers"
+      description: "Extensive network of organic micro-influencers"
     },
     {
       icon: TrendingUp,
@@ -102,11 +102,11 @@ const MicroKOLMarketing = () => {
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <div className="w-3 h-3 rounded-full bg-primary mt-1.5 flex-shrink-0 shadow-[0_0_10px_hsl(130_65%_55%/0.6)]" />
-                  <p className="text-muted-foreground">Up to 150 high-quality original posts about the project</p>
+                  <p className="text-muted-foreground">Up to 250 high-quality original posts about the project</p>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-3 h-3 rounded-full bg-primary mt-1.5 flex-shrink-0 shadow-[0_0_10px_hsl(130_65%_55%/0.6)]" />
-                  <p className="text-muted-foreground">Up to 250 retweets</p>
+                  <p className="text-muted-foreground">Up to 600 retweets</p>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-3 h-3 rounded-full bg-primary mt-1.5 flex-shrink-0 shadow-[0_0_10px_hsl(130_65%_55%/0.6)]" />
