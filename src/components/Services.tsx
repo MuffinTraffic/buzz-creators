@@ -16,8 +16,8 @@ const services = [
   },
   {
     icon: Lock,
-    title: "Go-to-Market Strategy",
-    description: "Your team builds the solution. Our team builds the demand."
+    title: "InfoFi & SocialFi Marketing",
+    description: "Our team help you get into Cookie3, Wallchain, MindoAI, Kaito and manage the entire process for you."
   },
   {
     icon: TrendingUp,
