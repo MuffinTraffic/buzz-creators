@@ -36,8 +36,8 @@ const Navigation = () => {
               window.scrollTo({ top: 0, behavior: "smooth" });
             }}
           >
-            <img src={buzzLogo} alt="Buzz Creators Logo" className="w-8 h-8 md:w-10 md:h-10" />
-            Buzz Creators
+            <img src={buzzLogo} alt="Buzz Creatorz Logo" className="w-8 h-8 md:w-10 md:h-10" />
+            Buzz Creatorz
           </a>
 
           {/* Desktop Navigation */}
@@ -60,7 +60,7 @@ const Navigation = () => {
             </span>
             <div className="flex items-center gap-3">
               <a
-                href="https://x.com/buzzzcreators"
+                href="https://x.com/buzzcreatorz"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground/80 hover:text-primary transition-colors"
@@ -109,7 +109,7 @@ const Navigation = () => {
               </span>
               <div className="flex items-center gap-4 py-2">
                 <a
-                  href="https://x.com/buzzzcreators"
+                  href="https://x.com/buzzcreatorz"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-foreground/80 hover:text-primary transition-colors"
