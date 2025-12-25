@@ -69,7 +69,7 @@ const Navigation = () => {
               </a>
             </div>
             <Button
-              onClick={() => window.open('https://calendly.com/kompy/30min?back=1&month=2025-12', '_blank')}
+              onClick={() => window.open('https://calendly.com/buzzcreatorz', '_blank')}
               className="bg-gradient-to-r from-primary to-teal-light text-primary-foreground hover:opacity-90 transition-all"
             >
               Book a Free Consultation
@@ -118,7 +118,7 @@ const Navigation = () => {
                 </a>
               </div>
               <Button
-                onClick={() => window.open('https://calendly.com/kompy/30min?back=1&month=2025-12', '_blank')}
+                onClick={() => window.open('https://calendly.com/buzzcreatorz', '_blank')}
                 className="bg-gradient-to-r from-primary to-teal-light text-primary-foreground hover:opacity-90 transition-all mt-2"
               >
                 Book a Free Consultation
