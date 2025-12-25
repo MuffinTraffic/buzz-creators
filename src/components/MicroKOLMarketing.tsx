@@ -117,14 +117,14 @@ const MicroKOLMarketing = () => {
 
             <div className="flex gap-4">
               <Button 
-                onClick={() => window.open('https://pitch.com/v/buzz-creators---sales-deck-4g8p9d', '_blank')}
+                onClick={() => window.open('https://t.me/HeyChild', '_blank')}
                 className="bg-primary text-primary-foreground hover:bg-primary/90 transition-all"
                 size="lg"
               >
-                Check Sales Deck
+                Request Sales Deck
               </Button>
               <Button 
-                onClick={() => window.open('https://calendly.com/kompy/30min?back=1&month=2025-12', '_blank')}
+                onClick={() => window.open('https://calendly.com/buzzcreatorz', '_blank')}
                 size="lg"
                 className="bg-primary text-primary-foreground hover:bg-primary/90"
               >

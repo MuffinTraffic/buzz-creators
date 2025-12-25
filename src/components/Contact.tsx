@@ -3,8 +3,7 @@ import { ArrowUpRight } from "lucide-react";
 
 const Contact = () => {
   const handleWorkWithUs = () => {
-    // Replace with your actual Calendly link
-    window.open('https://calendly.com/your-link', '_blank');
+    window.open('https://calendly.com/buzzcreatorz', '_blank');
   };
 
   return (
