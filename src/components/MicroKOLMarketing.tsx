@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Target, Users, TrendingUp, Zap } from "lucide-react";
-import microKolCampaign from "@/assets/micro-kol-campaign.jpg";
+import microKolCampaign from "@/assets/micro-kol-campaign.png";
 
 const MicroKOLMarketing = () => {
   const scrollToContact = () => {
