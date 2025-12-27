@@ -37,7 +37,7 @@ const MicroKOLMarketing = () => {
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Image Side */}
-          <div className="relative">
+          <div className="relative space-y-4">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
                 src={microKolCampaign}
@@ -58,6 +58,17 @@ const MicroKOLMarketing = () => {
                   </div>
                 </div>
               </div>
+            </div>
+            
+            {/* KOL Application CTA - Below Image */}
+            <div className="flex items-center gap-4">
+              <p className="text-lg font-medium text-foreground">Are you a KOL? Apply to be in rotation!</p>
+              <Button 
+                onClick={() => window.open('https://tally.so/r/xXjJlr', '_blank')}
+                className="bg-primary text-primary-foreground hover:bg-primary/90"
+              >
+                Apply
+              </Button>
             </div>
           </div>
 
@@ -132,17 +143,6 @@ const MicroKOLMarketing = () => {
               </Button>
             </div>
 
-            {/* KOL Application CTA */}
-            <div className="pt-6 border-t border-border">
-              <p className="text-muted-foreground mb-3">Are you a KOL? Apply to be in rotation!</p>
-              <Button 
-                onClick={() => window.open('https://tally.so/r/xXjJlr', '_blank')}
-                variant="outline"
-                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-              >
-                Apply
-              </Button>
-            </div>
           </div>
         </div>
       </div>
