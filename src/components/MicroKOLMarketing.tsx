@@ -117,7 +117,7 @@ const MicroKOLMarketing = () => {
 
             <div className="flex gap-4">
               <Button 
-                onClick={() => window.open('https://t.me/HeyChild', '_blank')}
+                onClick={() => window.open('https://t.me/smoo3f', '_blank')}
                 className="bg-primary text-primary-foreground hover:bg-primary/90 transition-all"
                 size="lg"
               >
@@ -129,6 +129,18 @@ const MicroKOLMarketing = () => {
                 className="bg-primary text-primary-foreground hover:bg-primary/90"
               >
                 Book a Call
+              </Button>
+            </div>
+
+            {/* KOL Application CTA */}
+            <div className="pt-6 border-t border-border">
+              <p className="text-muted-foreground mb-3">Are you a KOL? Apply to be in rotation!</p>
+              <Button 
+                onClick={() => window.open('https://tally.so/r/xXjJlr', '_blank')}
+                variant="outline"
+                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+              >
+                Apply
               </Button>
             </div>
           </div>
