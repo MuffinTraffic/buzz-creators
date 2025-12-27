@@ -61,15 +61,15 @@ const MicroKOLMarketing = () => {
             </div>
             
             {/* KOL Application CTA - Below Image */}
-            <div className="space-y-3">
-              <p className="text-lg font-medium text-foreground">Are you a KOL? Apply to be in rotation!</p>
+            <div className="flex items-center gap-2 flex-wrap">
+              <span className="text-lg font-medium text-foreground">Are you a KOL?</span>
               <Button 
                 onClick={() => window.open('https://tally.so/r/xXjJlr', '_blank')}
-                size="lg"
                 className="bg-primary text-primary-foreground hover:bg-primary/90"
               >
                 Apply
               </Button>
+              <span className="text-lg font-medium text-foreground">to be in rotation!</span>
             </div>
           </div>
 
