@@ -1,4 +1,4 @@
-import { Twitter } from "lucide-react";
+import { Twitter, Send } from "lucide-react";
 import kompyImage from "@/assets/kompy.jpg";
 import eliasImage from "@/assets/elias.jpg";
 import kisaImage from "@/assets/kisa.jpg";
@@ -33,7 +33,7 @@ const Team = () => {
       role: "Senior SMM Manager",
       image: kisaImage,
       bio: "4+ years in SMM. Perfect fit for DeFi, Alpha, NFT or KOL profiles. ex. Moni.",
-      twitter: "https://x.com/Netrovert_X"
+      telegram: "https://t.me/deployladeploy"
     },
     {
       name: "Elias",
@@ -77,15 +77,28 @@ const Team = () => {
                 <p className="text-xs text-muted-foreground mb-3">{member.bio}</p>
                 
                 <div className="flex gap-3">
-                  <a
-                    href={member.twitter}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-muted-foreground hover:text-primary transition-colors"
-                    aria-label="Twitter"
-                  >
-                    <Twitter size={20} />
-                  </a>
+                  {member.twitter && (
+                    <a
+                      href={member.twitter}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-muted-foreground hover:text-primary transition-colors"
+                      aria-label="Twitter"
+                    >
+                      <Twitter size={20} />
+                    </a>
+                  )}
+                  {member.telegram && (
+                    <a
+                      href={member.telegram}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-muted-foreground hover:text-primary transition-colors"
+                      aria-label="Telegram"
+                    >
+                      <Send size={20} />
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
