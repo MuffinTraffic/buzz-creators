@@ -1,7 +1,7 @@
 import { Twitter } from "lucide-react";
 import kompyImage from "@/assets/kompy.jpg";
 import eliasImage from "@/assets/elias.jpg";
-import netroImage from "@/assets/netro.jpg";
+import kisaImage from "@/assets/kisa.jpg";
 import blockbelleImage from "@/assets/blockbelle.jpg";
 import michaelImage from "@/assets/michael.png";
 
@@ -29,10 +29,10 @@ const Team = () => {
       twitter: "https://x.com/NeuronBizdev"
     },
     {
-      name: "Netro",
+      name: "Kisa",
       role: "Senior SMM Manager",
-      image: netroImage,
-      bio: "3+ years in SMM. Perfect fit for DeFi, Alpha, NFT projects. HOH Alpha SMM leader.",
+      image: kisaImage,
+      bio: "4+ years in SMM. Perfect fit for DeFi, Alpha, NFT or KOL profiles. ex. Moni.",
       twitter: "https://x.com/Netrovert_X"
     },
     {
