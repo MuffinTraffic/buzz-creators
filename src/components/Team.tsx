@@ -1,8 +1,9 @@
-import { Twitter } from "lucide-react";
+import { Twitter, Send } from "lucide-react";
 import kompyImage from "@/assets/kompy.jpg";
 import eliasImage from "@/assets/elias.jpg";
 import blockbelleImage from "@/assets/blockbelle.jpg";
 import michaelImage from "@/assets/michael.png";
+import kisaImage from "@/assets/kisa.jpg";
 
 const Team = () => {
   const teamMembers = [
@@ -33,6 +34,13 @@ const Team = () => {
       image: eliasImage,
       bio: "4+ years in Business Development & Community Building (X & Discord). Founder of Shinigami Alpha.",
       twitter: "https://x.com/_Eliasoul_"
+    },
+    {
+      name: "Kisa",
+      role: "Head of CIS",
+      image: kisaImage,
+      bio: "5+ years in Web3 Marketing & Community Management. Expert in CIS region growth strategies.",
+      telegram: "https://t.me/kisa_web3"
     }
   ];
 
@@ -48,7 +56,7 @@ const Team = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 max-w-6xl mx-auto">
           {teamMembers.map((member, index) => (
             <div
               key={index}
@@ -78,6 +86,17 @@ const Team = () => {
                       aria-label="Twitter"
                     >
                       <Twitter size={20} />
+                    </a>
+                  )}
+                  {member.telegram && (
+                    <a
+                      href={member.telegram}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-muted-foreground hover:text-primary transition-colors"
+                      aria-label="Telegram"
+                    >
+                      <Send size={20} />
                     </a>
                   )}
                 </div>
