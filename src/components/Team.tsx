@@ -29,18 +29,18 @@ const Team = () => {
       twitter: "https://x.com/NeuronBizdev"
     },
     {
+      name: "Kisa",
+      role: "Head of SMM",
+      image: kisaImage,
+      bio: "4+ years in SMM. Perfect fit for DeFi, GameFi or KOL pages. Content plan mastermind & researcher. Ex. Moni.",
+      telegram: "https://t.me/deployladeploy"
+    },
+    {
       name: "Elias",
       role: "X Boosting Manager",
       image: eliasImage,
       bio: "4+ years in Business Development & Community Building (X & Discord). Founder of Shinigami Alpha.",
       twitter: "https://x.com/_Eliasoul_"
-    },
-    {
-      name: "Kisa",
-      role: "Head of CIS",
-      image: kisaImage,
-      bio: "5+ years in Web3 Marketing & Community Management. Expert in CIS region growth strategies.",
-      telegram: "https://t.me/kisa_web3"
     }
   ];
 
