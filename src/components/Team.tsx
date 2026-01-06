@@ -1,7 +1,6 @@
-import { Twitter, Send } from "lucide-react";
+import { Twitter } from "lucide-react";
 import kompyImage from "@/assets/kompy.jpg";
 import eliasImage from "@/assets/elias.jpg";
-import kisaImage from "@/assets/kisa.jpg";
 import blockbelleImage from "@/assets/blockbelle.jpg";
 import michaelImage from "@/assets/michael.png";
 
@@ -27,13 +26,6 @@ const Team = () => {
       image: michaelImage,
       bio: "8+ years in Business Development. AMA Host. Casually organising high quality partnerships & collaborations in Web3 DeFi space.",
       twitter: "https://x.com/NeuronBizdev"
-    },
-    {
-      name: "Kisa",
-      role: "Senior SMM Manager",
-      image: kisaImage,
-      bio: "4+ years in SMM. Perfect fit for DeFi, Alpha, NFT or KOL profiles. ex. Moni.",
-      telegram: "https://t.me/deployladeploy"
     },
     {
       name: "Elias",
@@ -86,17 +78,6 @@ const Team = () => {
                       aria-label="Twitter"
                     >
                       <Twitter size={20} />
-                    </a>
-                  )}
-                  {member.telegram && (
-                    <a
-                      href={member.telegram}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-muted-foreground hover:text-primary transition-colors"
-                      aria-label="Telegram"
-                    >
-                      <Send size={20} />
                     </a>
                   )}
                 </div>
