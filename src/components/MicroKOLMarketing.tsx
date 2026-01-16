@@ -129,7 +129,7 @@ const MicroKOLMarketing = () => {
 
             <div className="flex gap-4">
               <Button 
-                onClick={() => window.open('https://t.me/smoo3f', '_blank')}
+                onClick={() => window.open('https://t.me/heychild', '_blank')}
                 className="bg-primary text-primary-foreground hover:bg-primary/90 transition-all"
                 size="lg"
               >
