@@ -7,6 +7,8 @@ import flagKazakhstan from "@/assets/flag-kazakhstan.jpg";
 import flagUkraine from "@/assets/flag-ukraine.png";
 import flagPhilippines from "@/assets/flag-philippines.png";
 import flagThailand from "@/assets/flag-thailand.jpg";
+import flagUAE from "@/assets/flag-uae.png";
+import flagBrazil from "@/assets/flag-brazil.png";
 
 const countries = [
   { name: "United States", flag: flagUS },
@@ -17,7 +19,9 @@ const countries = [
   { name: "Kazakhstan", flag: flagKazakhstan },
   { name: "Ukraine", flag: flagUkraine },
   { name: "Philippines", flag: flagPhilippines },
-  { name: "Thailand", flag: flagThailand }
+  { name: "Thailand", flag: flagThailand },
+  { name: "UAE", flag: flagUAE },
+  { name: "Brazil", flag: flagBrazil }
 ];
 
 const GeoSection = () => {
