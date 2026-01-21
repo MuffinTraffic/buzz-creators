@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, X, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import buzzLogo from "@/assets/buzz-logo-green.png";
+import buzzLogo from "@/assets/buzz-logo-new.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
