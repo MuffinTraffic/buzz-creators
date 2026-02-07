@@ -1,77 +1,12 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Rocket, Target, TrendingUp, Zap, Globe, Lock, Users, BarChart3, MessageSquare, Video, ArrowLeft } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEOHead from "@/components/SEOHead";
-
-const allServices = [
-  {
-    icon: Rocket,
-    title: "Web3 KOLs Campaigns",
-    description: "Connect with top-tier Key Opinion Leaders to amplify your brand's reach and credibility in the Web3 space.",
-    details: "We match your project with the right KOLs across Twitter, YouTube, and Telegram to drive authentic awareness and engagement."
-  },
-  {
-    icon: Target,
-    title: "Micro-KOLs Campaign",
-    description: "Leverage niche influencers for authentic engagement and targeted community growth.",
-    details: "Our organic network of 500+ micro-creators delivers up to 250 original posts and 600 retweets monthly with nonstop engagement.",
-    badge: "Hot"
-  },
-  {
-    icon: Lock,
-    title: "SocialFi & InfoFi Growth Campaigns",
-    description: "Our team help you get into Cookie3, Wallchain, MindoAI, Kaito and manage the entire process for you.",
-    details: "Full lifecycle management across top Web3 data platforms — from onboarding and integration to performance tracking and optimization."
-  },
-  {
-    icon: TrendingUp,
-    title: "Business Development",
-    description: "Strategic partnerships and growth initiatives to scale your Web3 project.",
-    details: "We identify and secure partnerships with exchanges, launchpads, ecosystems, and complementary protocols to accelerate your growth."
-  },
-  {
-    icon: Globe,
-    title: "Social Media Management",
-    description: "Professional management of your social presence across all major Web3 platforms.",
-    details: "Daily content creation, community engagement, and strategic posting schedules across Twitter, Discord, and Telegram."
-  },
-  {
-    icon: Zap,
-    title: "Twitter KOL Tweet Boosting",
-    description: "Get visibility by driving long-term boosting on top of your tweets from web3 communities.",
-    details: "Sustained organic engagement from real Web3 communities that builds algorithmic momentum and lasting visibility.",
-    badge: "New"
-  },
-  {
-    icon: Users,
-    title: "Community Building",
-    description: "Build and nurture engaged Web3 communities across Discord, Telegram, and other platforms.",
-    details: "From moderator hiring to event planning, AMAs, and reward programs — we create communities that stick around."
-  },
-  {
-    icon: BarChart3,
-    title: "Campaign Analytics & Reporting",
-    description: "Data-driven insights and transparent reporting on all campaign performance metrics.",
-    details: "Real-time dashboards tracking reach, engagement, wallet signups, and ROI across every campaign touchpoint."
-  },
-  {
-    icon: MessageSquare,
-    title: "Telegram & Discord Marketing",
-    description: "Targeted marketing campaigns within Telegram and Discord channels for direct community engagement.",
-    details: "AMA hosting, raid coordination, channel growth strategies, and bot-assisted engagement campaigns."
-  },
-  {
-    icon: Video,
-    title: "Video Content & Clips",
-    description: "Professional short-form video content tailored for Web3 audiences across platforms.",
-    details: "From KOL video reviews to viral clip creation — engaging video content that drives awareness and conversions.",
-    badge: "Coming Soon"
-  }
-];
+import { allServices } from "@/data/services";
 
 const ServicesPage = () => {
   const navigate = useNavigate();
@@ -110,7 +45,8 @@ const ServicesPage = () => {
             {allServices.map((service, index) => (
               <Card 
                 key={index}
-                className="relative border-border bg-card backdrop-blur-sm hover:border-primary transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+                className="relative border-border bg-card backdrop-blur-sm hover:border-primary transition-all duration-300 hover:-translate-y-1 hover:shadow-xl cursor-pointer"
+                onClick={() => navigate(`/services/${service.slug}`)}
               >
                 {service.badge && (
                   <Badge 

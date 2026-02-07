@@ -1,43 +1,9 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Rocket, Target, TrendingUp, Zap, Globe, Lock, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-
-const services = [
-  {
-    icon: Rocket,
-    title: "Web3 KOLs Campaigns",
-    description: "Connect with top-tier Key Opinion Leaders to amplify your brand's reach and credibility in the Web3 space."
-  },
-  {
-    icon: Target,
-    title: "Micro-KOLs Campaign",
-    description: "Leverage niche influencers for authentic engagement and targeted community growth.",
-    badge: "Hot"
-  },
-  {
-    icon: Lock,
-    title: "SocialFi & InfoFi Growth Campaigns",
-    description: "Our team help you get into Cookie3, Wallchain, MindoAI, Kaito and manage the entire process for you."
-  },
-  {
-    icon: TrendingUp,
-    title: "Business Development",
-    description: "Strategic partnerships and growth initiatives to scale your Web3 project."
-  },
-  {
-    icon: Globe,
-    title: "Social Media Management",
-    description: "Professional management of your social presence across all major Web3 platforms."
-  },
-  {
-    icon: Zap,
-    title: "Twitter KOL Tweet Boosting",
-    description: "Get visibility by driving long-term boosting on top of your tweets from web3 communities.",
-    badge: "New"
-  }
-];
+import { coreServices } from "@/data/services";
 
 const Services = () => {
   const navigate = useNavigate();
@@ -55,10 +21,11 @@ const Services = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {services.map((service, index) => (
+          {coreServices.map((service, index) => (
             <Card 
               key={index}
-              className="relative border-border bg-card backdrop-blur-sm hover:border-primary transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
+              className="relative border-border bg-card backdrop-blur-sm hover:border-primary transition-all duration-300 hover:-translate-y-2 hover:shadow-xl cursor-pointer"
+              onClick={() => navigate(`/services/${service.slug}`)}
             >
               {service.badge && (
                 <Badge 
