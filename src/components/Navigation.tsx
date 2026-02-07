@@ -100,9 +100,7 @@ const Navigation = () => {
                     >
                       All Services
                     </a>
-                    {allServices.map((service) => {
-                      const Icon = service.icon;
-                      return (
+                    {allServices.map((service) => (
                         <a
                           key={service.slug}
                           href={`/services/${service.slug}`}
@@ -111,13 +109,11 @@ const Navigation = () => {
                             navigate(`/services/${service.slug}`);
                             setServicesOpen(false);
                           }}
-                          className="flex items-center gap-3 px-4 py-2.5 text-sm text-foreground/80 hover:text-foreground hover:bg-muted transition-colors"
+                          className="block px-4 py-2.5 text-sm text-foreground/80 hover:text-foreground hover:bg-muted transition-colors"
                         >
-                          <Icon size={16} className="text-primary flex-shrink-0" />
                           {service.title}
                         </a>
-                      );
-                    })}
+                    ))}
                   </div>
                 </div>
               )}
