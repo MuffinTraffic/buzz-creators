@@ -1,26 +1,38 @@
 import { useState } from "react";
 import { Menu, X, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useNavigate, useLocation } from "react-router-dom";
 import buzzLogo from "@/assets/buzz-logo-new.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
 
   const navLinks = [
-    { href: "#services", label: "Services" },
-    { href: "#micro-kols", label: "Micro-KOLs" },
-    { href: "#performance", label: "Dashboard" },
-    { href: "#testimonials", label: "Clients" },
-    { href: "#team", label: "Team" },
+    { href: "#services", label: "Services", route: "/services" },
+    { href: "#case-studies", label: "Case Studies" },
+    { href: "#blog", label: "Blog" },
     { href: "#contact", label: "Contact" },
   ];
 
-  const scrollToSection = (href: string) => {
-    const element = document.querySelector(href);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-      setIsOpen(false);
+  const handleNavClick = (link: { href: string; label: string; route?: string }) => {
+    if (location.pathname !== "/") {
+      // Navigate home first, then scroll
+      navigate("/");
+      setTimeout(() => {
+        const element = document.querySelector(link.href);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 100);
+    } else {
+      const element = document.querySelector(link.href);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
     }
+    setIsOpen(false);
   };
 
   return (
@@ -29,11 +41,15 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Brand */}
           <a
-            href="#"
+            href="/"
             className="flex items-center gap-2 text-xl md:text-2xl font-bold text-foreground hover:opacity-80 transition-opacity"
             onClick={(e) => {
               e.preventDefault();
-              window.scrollTo({ top: 0, behavior: "smooth" });
+              if (location.pathname !== "/") {
+                navigate("/");
+              } else {
+                window.scrollTo({ top: 0, behavior: "smooth" });
+              }
             }}
           >
             <img src={buzzLogo} alt="Buzz Creatorz Logo" className="w-8 h-8 md:w-10 md:h-10" />
@@ -48,7 +64,7 @@ const Navigation = () => {
                 href={link.href}
                 onClick={(e) => {
                   e.preventDefault();
-                  scrollToSection(link.href);
+                  handleNavClick(link);
                 }}
                 className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
               >
@@ -64,6 +80,7 @@ const Navigation = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground/80 hover:text-primary transition-colors"
+                aria-label="Follow Buzz Creatorz on Twitter"
               >
                 <Twitter size={20} />
               </a>
@@ -82,6 +99,7 @@ const Navigation = () => {
             size="icon"
             className="md:hidden"
             onClick={() => setIsOpen(!isOpen)}
+            aria-label={isOpen ? "Close menu" : "Open menu"}
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </Button>
@@ -97,7 +115,7 @@ const Navigation = () => {
                   href={link.href}
                   onClick={(e) => {
                     e.preventDefault();
-                    scrollToSection(link.href);
+                    handleNavClick(link);
                   }}
                   className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors py-2"
                 >
@@ -113,6 +131,7 @@ const Navigation = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-foreground/80 hover:text-primary transition-colors"
+                  aria-label="Follow Buzz Creatorz on Twitter"
                 >
                   <Twitter size={20} />
                 </a>

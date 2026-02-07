@@ -33,7 +33,7 @@ const services = [
   },
   {
     icon: Zap,
-    title: "X Organic Boosting",
+    title: "Twitter KOL Tweet Boosting",
     description: "Get visibility by driving long-term boosting on top of your tweets from web3 communities.",
     badge: "New"
   }
