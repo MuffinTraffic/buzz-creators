@@ -1,11 +1,13 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Rocket, Target, TrendingUp, Zap, Globe, Lock } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Rocket, Target, TrendingUp, Zap, Globe, Lock, ArrowRight } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const services = [
   {
     icon: Rocket,
-    title: "KOL Marketing",
+    title: "Web3 KOLs Campaigns",
     description: "Connect with top-tier Key Opinion Leaders to amplify your brand's reach and credibility in the Web3 space."
   },
   {
@@ -16,7 +18,7 @@ const services = [
   },
   {
     icon: Lock,
-    title: "InfoFi & SocialFi Marketing",
+    title: "SocialFi & InfoFi Growth Campaigns",
     description: "Our team help you get into Cookie3, Wallchain, MindoAI, Kaito and manage the entire process for you."
   },
   {
@@ -38,12 +40,14 @@ const services = [
 ];
 
 const Services = () => {
+  const navigate = useNavigate();
+
   return (
     <section id="services" className="py-24 relative">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-4xl md:text-5xl font-bold">
-            Our <span className="text-gradient">Services</span>
+            Core <span className="text-gradient">Services</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             No cookie-cutter plays. Just smart, tailored Web3 marketing that fits your vibe and hits the mark.
@@ -76,6 +80,17 @@ const Services = () => {
               </CardContent>
             </Card>
           ))}
+        </div>
+
+        <div className="text-center mt-12">
+          <Button 
+            size="lg"
+            className="bg-primary text-primary-foreground hover:bg-primary/90 glow-mint transition-all duration-300 group"
+            onClick={() => navigate('/services')}
+          >
+            Explore More
+            <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+          </Button>
         </div>
       </div>
     </section>

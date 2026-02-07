@@ -7,6 +7,7 @@ import Stats from "@/components/Stats";
 import GeoSection from "@/components/GeoSection";
 import PerformanceDashboard from "@/components/PerformanceDashboard";
 import Testimonials from "@/components/Testimonials";
+import CaseStudies from "@/components/CaseStudies";
 import Team from "@/components/Team";
 import Contact from "@/components/Contact";
 import BlogSection from "@/components/BlogSection";
@@ -24,6 +25,7 @@ const Index = () => {
       <GeoSection />
       <PerformanceDashboard />
       <Testimonials />
+      <CaseStudies />
       <Team />
       <Contact />
       <BlogSection />
