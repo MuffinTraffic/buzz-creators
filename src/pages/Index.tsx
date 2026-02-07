@@ -9,6 +9,7 @@ import PerformanceDashboard from "@/components/PerformanceDashboard";
 import Testimonials from "@/components/Testimonials";
 import Team from "@/components/Team";
 import Contact from "@/components/Contact";
+import BlogSection from "@/components/BlogSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -25,6 +26,7 @@ const Index = () => {
       <Testimonials />
       <Team />
       <Contact />
+      <BlogSection />
       <Footer />
     </div>
   );
