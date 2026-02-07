@@ -76,7 +76,7 @@ const Navigation = () => {
               onMouseLeave={handleMouseLeave}
             >
               <button
-                onClick={() => navigate("/services")}
+                onClick={() => handleNavClick({ href: "#services", label: "Services" })}
                 className="flex items-center gap-1 text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
               >
                 Services
