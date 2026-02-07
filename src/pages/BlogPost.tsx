@@ -3,6 +3,7 @@ import { ArrowLeft, Clock } from "lucide-react";
 import { getBlogPostBySlug } from "@/data/blogPosts";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import SEOHead from "@/components/SEOHead";
 import { useEffect } from "react";
 
 const BlogPost = () => {
@@ -58,8 +59,26 @@ const BlogPost = () => {
       .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
   };
 
+  const blogJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": post.title,
+    "description": post.excerpt,
+    "image": post.coverImage,
+    "datePublished": post.date,
+    "author": { "@type": "Organization", "name": "Buzz Creatorz" },
+    "publisher": { "@type": "Organization", "name": "Buzz Creatorz" },
+  };
+
   return (
     <div className="min-h-screen">
+      <SEOHead
+        title={`${post.title} — Buzz Creatorz Blog`}
+        description={post.excerpt}
+        canonical={`https://buzzcreatorz.xyz/blog/${slug}`}
+        ogType="article"
+        jsonLd={blogJsonLd}
+      />
       <Navigation />
 
       {/* Hero */}
